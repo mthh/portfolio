@@ -1,0 +1,101 @@
+[
+  {
+    "title": "GASPAR - Geoviz Application for Searching And Rescuing People",
+    "url": "https://cloud.univ-grenoble-alpes.fr/index.php/s/stMBoxcWbaHED2K",
+    "note": "",
+    "conference": "Challenge GeoDataDays 2021",
+    "place": "Grenoble",
+    "date": "15-16 septembre 2021"
+  }, {
+    "title": "Tour d’horizon des fonctionnalités de SHACL",
+    "url": "https://mthh.github.io/shacl_intro_20200117/",
+    "note": "",
+    "conference": "",
+    "place": "",
+    "date": "17 janvier 2020"
+  }, {
+    "title": "Environnement de dev. en JS",
+    "url": "https://mthh.github.io/environnement_dev_js_20191220/",
+    "note": "",
+    "conference": "",
+    "place": "",
+    "date": "20 décembre 2019"
+  }, {
+    "title": "L’Ontologie d’Alerte Choucas : de la modélisation des connaissances à un outil support d’un raisonnement géovisuel - Application à la recherche de victime en haute-montagne",
+    "url": "https://mthh.github.io/sageo2019/",
+    "note": "",
+    "conference": "SAGEO 2019",
+    "place": "Clermont-Ferrand",
+    "date": "14 novembre 2019"
+  }, {
+    "title": "Improving the search for victims in mountain environments with geovisualization and competing hypotheses management",
+    "url": "https://mthh.github.io/icc19/ViryEtAl_choucas_icc19_prez.pdf",
+    "note": "",
+    "conference": "ICC / Conférence Internationnale de Cartographie",
+    "place": "Tokyo",
+    "date": "16 juillet 2019"
+  }, {
+    "title": "Introduction à Webpack",
+    "url": "https://mthh.github.io/intro_webpack_190509/",
+    "note": "",
+    "conference": "",
+    "place": "",
+    "date": "09 mai 2019"
+  }, {
+    "title": "Introduction Python pour les utilisateurs de R",
+    "url": "https://mthh.github.io/RUSS_190404/",
+    "note": "",
+    "conference": "Séminaire RUSS de l’INED",
+    "place": "Paris",
+    "date": "04 Avril 2019"
+  }, {
+    "title": "Les données spatialisées ou géolocalisées - Pratique de Khartis et Magrit",
+    "url": "",
+    "note": "avec Thomas Ansart",
+    "conference": "ANF DATAVIZ 2018",
+    "place": "Sète",
+    "date": "16 novembre 2018"
+  }, {
+    "title": "Regioviz - Outil interactif de visualisation et de comparaison régionale",
+    "url": "https://riate.cnrs.fr/wp-content/uploads/2019/01/20181108_Regioviz_SAGEO.pdf",
+    "note": "avec Ronan Ysebaert et Marianne Guérois",
+    "conference": "SAGEO 2018",
+    "place": "Montpellier",
+    "date": "08 novembre 2018"
+  }, {
+    "title": "Mettre en ligne une carte sans Google",
+    "url": "https://mthh.github.io/poleimage_osm_180621/",
+    "note": "session 2 - avec Violaine Jurie",
+    "conference": "Midi du Pôle Image",
+    "place": "Paris",
+    "date": "21 juin 2018"
+  }, {
+    "title": "Magrit - Session trucs et astuces",
+    "url": "https://mthh.github.io/poleimage_magrit_180329/",
+    "note": "",
+    "conference": "Midi du Pôle Image",
+    "place": "Paris",
+    "date": "29 mars 2018"
+  }, {
+    "title": "Magrit: a didactic cartography tool",
+    "url": "https://mthh.github.io/icc17/",
+    "note": "",
+    "conference": "ICC / Conférence Internationnale de Cartographie",
+    "place": "Washington DC",
+    "date": "3 juillet 2017"
+  }, {
+    "title": "OSM dans une unité de service en aménagement du territoire",
+    "url": "https://mthh.github.io/sotm_riate/",
+    "note": "",
+    "conference": "State Of The Map 2017",
+    "place": "Avignon",
+    "date": "2 juin 2017"
+  }, {
+    "title": "Présentation de Magrit",
+    "url": "https://mthh.github.io/carto/",
+    "note": "",
+    "conference": "Midi du Pôle Image",
+    "place": "Paris",
+    "date": "21 mars 2017"
+  }
+]

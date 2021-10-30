@@ -1,0 +1,116 @@
+[
+  {
+    "name": "CoViKoa",
+    "types": ["Research prototype"],
+    "languages": ["Java", "Python", "JavaScript"],
+    "description": "CoViKoa (which is an abbreviation for the french, albeit incorrect, sentence <em>Comment on Visualise Quoi</em>) is a framework for the geovisualisation of Semantic Web data. For this, it uses an ecosystem of 10 ontologies, 6 which are original proposals and 4 which are reused from the literature.\nIt allows a user (typically a knowledge engineer) to describe, in a purely declarative way and in RDF, a geovisualisation. This description is done in a specification document which is read by the framwork and which allows, thanks to SHACL rules, to obtain a RDF graph containing the links between the data and their symbolisation within the components of a geovisualisation. Other elements such as the possibility of defining interactions and the possibility of transforming the data to be portrayed contribute to the creation of rich geovisualisations. The resulting RDF graph is published behind a SPARQL interface and we also provide a generic web client to create the corresponding geovisualisation using this graph. To test its relevance, we use it to visualise data from three different models.",
+    "duration": "Dec. 2019 - Now",
+    "context": "This research prototype was made during my PhD, funded by the <a href=\"https://choucas.ign.fr/\">ANR CHOUCAS</a> project. It includes all the elements described in the 'Proposal' part of ma thesis manuscript.",
+    "images": [{
+      "url": "/img/covikoala-cut.jpg",
+      "title": "CoViKoa's logo - made by an anonymous friend"
+    }],
+    "links": {
+      "github": "https://github.com/mthh/covikoa"
+    }
+  }, {
+    "name": "GASPAR",
+    "types": ["Research prototype", "Web application"],
+    "languages": ["Python", "JavaScript"],
+    "description": "GASPAR is a prototype of a geovisualisation application, intended to support the search for a victim to be located in the mountains, on the basis of imprecise location elements. It allows the use of various elements of the CHOUCAS project (concerning the provision of reference objects and concerning the spatialisation and fusion of location areas). For its part, GASPAR allows the capturing of the initial search area, the capturing of clues, and the restitution of the victim's location area in a 2d view and in a 3d view.\nIt uses libraries such as OpenLayers, Itowns and Lumino.js. The code for the latest version is not yet released publicly as it depends on several other bricks from the CHOUCAS project. An article describing the latest version of the application is also being written at the moment.",
+    "duration": "Oct. 2018 - Now",
+    "context": "This research prototype was made during my PhD funded by the <a href=\"https://choucas.ign.fr/\">ANR CHOUCAS</a> (however, my thesis manuscript does not specifically address this aspect).",
+    "images": [{
+      "url": "/img/gasparlogo.png",
+      "title": "GASPAR's logo - generated from a DEM of the Grenoble area"
+    }],
+    "links": {
+      "web": "https://steamer.imag.fr/?page_id=792"
+    }
+  },{
+    "name": "Magrit",
+    "types": ["Web application"],
+    "languages": ["Python", "JavaScript"],
+    "description": "Magrit is an online application for thematic mapping (cartography). It's designed for teaching and learning cartography (in fact it is used by several teachers at the university for this purpose).\nIt allows the production of a wide variety of portrayals (choropleth, proportional symbols, cartogram, discontinuity, etc.), map customisation with classic design elements (scale, orientation, arrow, custom image), and the export of the maps created in various formats (notably in well-organised SVG which allows easy editing in a vector drawing software afterwards).\nFrom a technical point of view, Magrit is backed by a python 3.6+ application (particularly for some geoprocessing tasks relying on GDAL, GEOS and PROJ.4 libraries). On client-side, Magrit is written in modern JavaScript (ES6) and uses notably the d3.js library.",
+    "duration": "Feb. 2016 - Sept. 2018",
+    "context": "I developed Magrit while working at the <a href=\"https://riate.cnrs.fr/\">UMS RIATE</a>. Design was made with Timothée Giraud and Nicolas Lambert, as well as thanks to the numerous feedbacks and suggestions from students or teachers. I am no longer actively maintaining it since Sept. 2018 (however I do sometimes make bug fixes if necessary) and the application is still <a href=\"http://magrit.cnrs.fr/\">online</a> (managed by the UMS RIATE) and in use.",
+    "images": [{
+      "url": "https://raw.githubusercontent.com/mthh/example-magrit-projects/master/cinema_pot2.png",
+      "title": "An example of map made with Magrit"
+    }],
+    "links": {
+      "github": "https://github.com/riatelab/magrit",
+      "web": "http://magrit.cnrs.fr"
+    }
+  }, {
+    "name": "Regioviz",
+    "types": ["Research prototype", "Web application"],
+    "languages": ["JavaScript"],
+    "description": "Regioviz is a tool to compare new French regions in the European context. This statistical exploration tool aims to be usable by non-experts in data manipulation/visualisation. A central point of the proposed exploration is thus the choice of a reference territory (\"my territory\") by the user.\nIt allows the use of several representation and analysis functionalities to compare a territory with the other territories in the study area: positioning with regard to one indicator (bar chart), two indicators (scatter plot) and three or more indicators (radar chart), and similarity with regard to one or more indicators (two proposed representations).\nRegioviz is written entirely in JavaScript and works with any dataset prepared according to its specifications. In order to test the genericity of the tool and the data model, we prepared two other datasets (indicators of various French statistical subdivisions and electoral results of delegations in Tunisia).",
+    "duration": "Feb. 2017 - Sept. 2018",
+    "context": "I developed Regioviz while working at the <a href=\"https://riate.cnrs.fr/\">UMS RIATE</a> as part of a project coordinated by French CGET (<em>Commissariat Général à l'Égalité des Territoires). Design was made with Ronan Ysebaert and Marianne Guérois and in association with the end-users via the CGET. All the work related to the data (modelling, preparation, etc.) was made by Ronan Ysebaert.",
+    "images": [{
+      "url": "/img/screenshot-regioviz.jpg",
+      "title": "Screenshot of a portion of the Regioviz interface"
+    }],
+    "links": {
+      "github": "https://github.com/riatelab/regioviz",
+      "web": "https://riatelab.github.io/regiovizlab/"
+    }
+  }, {
+    "name": "QGIS Distance Cartogram Plugin",
+    "types": ["QGIS Plugin"],
+    "languages": ["Python"],
+    "description": "Distance Cartogram is a Python plugin to QGIS3 allowing to make distance cartograms.\nThe technique consists in showing (on background(s) layer(s), such as the territorial divisions of the study zone) the local deformations (calculated using Waldo Tobler's bidimensional regression) to fit a layer of image points to a layer of source points. It is an appealing representation that allows, for example, the distortion of a reference space to represent travel times or estimated positions in spatial cognition.\nThe credit for this type of anamorphosis goes to Colette Cauvin (UMR Théma - Univ. Franche-Comté) and Gilles Vuidel (UMR Théma - CNRS) who first implemented it in Darcy tool.",
+    "duration": "Feb. 2018 - Now",
+    "images": [{
+      "url": "https://raw.githubusercontent.com/mthh/QgisDistanceCartogramPlugin/master/help/source/img/screenshot500.png",
+      "title": "Example of a distance cartogram"
+    }],
+    "links": {
+      "github": "https://github.com/mthh/QgisDistanceCartogramPlugin",
+      "web": "https://plugins.qgis.org/plugins/dist_cartogram/"
+    }
+  }, {
+    "name": "Jenkspy",
+    "types": ["Library"],
+    "languages": ["Python"],
+    "description": "Jenkspy is a fast implementation (the core processing is coded in C and wrapped with Cython) of the Fisher-Jenks 1d classification algorithm which is frequently used in cartography.\nAccording to PyPi Stats, it is downloaded several thousand times a day on PyPI.",
+    "duration": "Sept. 2016 - Now",
+    "images": [],
+    "links": {
+      "github": "https://github.com/mthh/jenkspy",
+      "pypi": "https://pypi.org/project/jenkspy/"
+    }
+  }, {
+    "name": "loc-i18next",
+    "types": ["Library"],
+    "languages": ["JavaScript"],
+    "description": "loc-i18next is a 0-dependency JavaScript library, inspired by jquery-i18next, which allows to use HTML5 selectors to select in JavaScript the elements to be translated by i18next.\nAlthough it is less used nowadays, it still counts several hundred downloads each week on npm.",
+    "duration": "Oct 2016 - Now",
+    "images": [],
+    "links": {
+      "github": "https://github.com/mthh/loc-i18next",
+      "npm": "https://www.npmjs.com/package/loc-i18next"
+    }
+  }, {
+    "name": "sfcgal-rs",
+    "types": ["Library"],
+    "languages": ["Rust"],
+    "description": "A Rust wrapper around <a href\"https://gitlab.com/Oslandia/SFCGAL\">SFCGAL</a> C API.\nIn addition to exposing the various functionalities of SFCGAL, it allows easy conversions to / from the data structures of other crates in the georust ecosystem.",
+    "duration": "Feb. 2019 - Now",
+    "images": [],
+    "links": {
+      "github": "https://github.com/mthh/sfcgal-rs",
+      "crates": "https://crates.io/crates/sfcgal"
+    }
+  }, {
+    "name": "Miscellaneous opensource contributions",
+    "types": ["Library"],
+    "languages": ["Python", "Rust", "JavaScript"],
+    "description": "I also made a few minor contributions (bug fixes, documentation or improvements) to some open-source projects I love :\n- <a href=\"https://github.com/georust/gdal\">georust/gdal</a> (<a href=\"https://github.com/georust/gdal/pull/29\">#29</a>, <a href=\"https://github.com/georust/gdal/pull/31\">#31</a>)\n- <a href=\"https://github.com/georust/geojson\">georust/geojson</a> (<a href=\"https://github.com/georust/geojson/pull/68\">#68</a>, <a href=\"https://github.com/georust/geojson/pull/70\">#70</a>, <a href=\"https://github.com/georust/geojson/pull/76\">#76</a>, <a href=\"https://github.com/georust/geojson/pull/79\">#79</a>, <a href=\"https://github.com/georust/geojson/pull/105\">#105</a>, <a href=\"https://github.com/georust/geojson/pull/106\">#106</a>)\n- <a href=\"https://github.com/georust/topojson/\">georust/topojson</a> <a href=\"https://github.com/georust/topojson/pull/6\">(#6)</a>\n- <a href=\"https://github.com/georust/geos\">georust/geos</a> (I was the creator / maintainer until it was given to georust community - <a href=\"https://github.com/georust/geos/pull/11\">#11</a>, <a href=\"https://github.com/georust/geos/pull/18\">#18</a>, <a href=\"https://github.com/georust/geos/pull/19\">#19</a>)\n- <a href=\"https://github.com/d3/d3-geo-projection\">d3/d3-geo-projection</a> (<a href=\"https://github.com/d3/d3-geo-projection/pull/101\">#101</a>)\n- <a href=\"https://github.com/d3/d3-geo\">d3/d3-geo</a> (<a href=\"https://github.com/d3/d3-geo/pull/114\">#114</a>)\n- <a href=\"https://github.com/geopandas/geopandas/\">geopandas/geopandas</a> (<a href=\"https://github.com/geopandas/geopandas/pull/781\">#781</a>)\n- <a href=\"https://github.com/Turbo87/flat-projection-rs\">Turbo87/flat-projection-rs</a> (<a href=\"https://github.com/Turbo87/flat-projection-rs/pull/8\">#8</a>, <a href=\"https://github.com/Turbo87/flat-projection-rs/pull/9\">#9</a>)\n- <a href=\"https://github.com/rust-lang/mdBook/\">rust-lang/mdBook</a> (<a href=\"https://github.com/rust-lang/mdBook/pull/248\">#248</a>)\n- <a href=\"https://github.com/mrhooray/kdtree-rs\">mrhooray/kdtree-rs</a> (<a href=\"https://github.com/mrhooray/kdtree-rs/pull/15\">#15</a>)",
+    "duration": "",
+    "note": "This is a non-exhaustive list, more of my contributions can be found on my GitHub profile and I have other minor libraries published for example on crates.io (although they are not widely used).",
+    "images": []
+  }
+]
