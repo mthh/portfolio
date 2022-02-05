@@ -7,7 +7,8 @@
       </figure>
       <h2>About me</h2>
       <div>
-        <p>I am a PhD student in computer science at the <a href="https://www.univ-grenoble-alpes.fr/">Université Grenoble Alpes</a>, working in the <a href="https://steamer.imag.fr/">STeamer research team</a> of the <a href="https://www.liglab.fr/">Grenoble Informatics Laboratory</a> (LIG) on <em>geovisualisation of Semantic Web data</em>.</p>
+        <p>I am currently a research engineer in computer science at the <a href="https://www.univ-grenoble-alpes.fr/">Université Grenoble Alpes</a>, working in the <a href="https://steamer.imag.fr/">STeamer research team</a> of the <a href="https://www.liglab.fr/">Grenoble Informatics Laboratory</a> (LIG).</p>
+        <p>I graduated from the Université Grenoble Alpes with a PhD in Computer Science, which I recently defended (on December 16th 2021).</p>
         <h4>Research interest</h4>
         <ul>
           <li>Semantic Web technologies / Web of Data</li>
