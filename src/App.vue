@@ -33,7 +33,7 @@ export default {
   color: #2c3e50;
 }
 #app > main.content {
-  padding: 70px 2em 5px 2em;
+  padding: 60px 2em 5px 2em;
   max-width: 1100px;
   margin: auto;
 }

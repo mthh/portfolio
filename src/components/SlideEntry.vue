@@ -1,10 +1,11 @@
 <template>
   <li>
-    <a :href="url">{{ title }}</a>
+    <strong><a :href="url">{{ title }}</a></strong>
     <span v-if="note"> ({{ note }})</span>
-    <span v-if="conference"> - {{ conference }}</span>
-    <span v-if="place"> ({{ place }} - {{ date }})</span>
-    <span v-else> ({{ date }})</span>
+    <br>
+    <span v-if="conference"><em>{{ conference }} - </em></span>
+    <span v-if="place">{{ place }} - {{ date }}</span>
+    <span v-else>{{ date }}</span>
   </li>
 </template>
 

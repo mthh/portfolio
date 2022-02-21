@@ -8,7 +8,8 @@
       <h2>About me</h2>
       <div>
         <p>I am currently a research engineer in computer science at the <a href="https://www.univ-grenoble-alpes.fr/">Université Grenoble Alpes</a>, working in the <a href="https://steamer.imag.fr/">STeamer research team</a> of the <a href="https://www.liglab.fr/">Grenoble Informatics Laboratory</a> (LIG).</p>
-        <p>I graduated from the Université Grenoble Alpes with a PhD in Computer Science, which I recently defended (on December 16th 2021).</p>
+        <p>On December 2021, I graduated from the Université Grenoble Alpes with a <a href="https://www.theses.fr/s208233">PhD in Computer Science</a>.
+          Before that, from early 2014 to October 2018, I worked as a study engineer in geography and geographic information science.</p>
         <h4>Research interest</h4>
         <ul>
           <li>Semantic Web technologies / Web of Data</li>
@@ -18,6 +19,8 @@
         <h4>Other interest</h4>
         <p>
           I am also interested in software development (library, application) whether it is to process data related to my research interests (geographic information or Semantic Web data for example) or for user interface development in general.
+        </p>
+        <p>
           I have experience with various languages and frameworks such as JavaScript (vanilla, d3.js, Vue.js, OpenLayers, Leaflet, Itowns), HTML and CSS (Bootstrap, Bulma), Python (FastApi, aiohttp, pandas, matplotlib, PyQt / PySide, Owlready, RDFLib), Cython, Rust (georust ecosystem), Java (Apache Jena) and I may even write C if necessary.
         </p>
       </div>

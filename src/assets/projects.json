@@ -4,7 +4,7 @@
     "types": ["Research prototype"],
     "languages": ["Java", "Python", "JavaScript"],
     "description": "CoViKoa (which is an abbreviation for the french, albeit incorrect, sentence <em>Comment on Visualise Quoi</em>) is a framework for the geovisualisation of Semantic Web data. For this, it uses an ecosystem of 10 ontologies, 6 which are original proposals and 4 which are reused from the literature.\nIt allows a user (typically a knowledge engineer) to describe, in a purely declarative way and in RDF, a geovisualisation. This description is done in a specification document which is read by the framwork and which allows, thanks to SHACL rules, to obtain a RDF graph containing the links between the data and their symbolisation within the components of a geovisualisation. Other elements such as the possibility of defining interactions and the possibility of transforming the data to be portrayed contribute to the creation of rich geovisualisations. The resulting RDF graph is published behind a SPARQL interface and we also provide a generic web client to create the corresponding geovisualisation using this graph. To test its relevance, we use it to visualise data from three different models.",
-    "duration": "Dec. 2019 - Now",
+    "duration": "Dec. 2019 - Dec. 2021",
     "context": "This research prototype was made during my PhD, funded by the <a href=\"https://choucas.ign.fr/\">ANR CHOUCAS</a> project. It includes all the elements described in the 'Proposal' part of ma thesis manuscript.",
     "images": [{
       "url": "/img/covikoala-cut.jpg",
@@ -18,7 +18,7 @@
     "types": ["Research prototype", "Web application"],
     "languages": ["Python", "JavaScript"],
     "description": "GASPAR is a prototype of a geovisualisation application, intended to support the search for a victim to be located in the mountains, on the basis of imprecise location elements. It allows the use of various elements of the CHOUCAS project (concerning the provision of reference objects and concerning the spatialisation and fusion of location areas). For its part, GASPAR allows the capturing of the initial search area, the capturing of clues, and the restitution of the victim's location area in a 2d view and in a 3d view.\nIt uses libraries such as OpenLayers, Itowns and Lumino.js. The code for the latest version is not yet released publicly as it depends on several other bricks from the CHOUCAS project. An article describing the latest version of the application is also being written at the moment.",
-    "duration": "Oct. 2018 - Now",
+    "duration": "Oct. 2018 - Dec. 2021",
     "context": "This research prototype was made during my PhD funded by the <a href=\"https://choucas.ign.fr/\">ANR CHOUCAS</a> (however, my thesis manuscript does not specifically address this aspect).",
     "images": [{
       "url": "/img/gasparlogo.png",
