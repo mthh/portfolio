@@ -24,11 +24,15 @@ export default {
 
 <style scoped>
 #hal-frame {
-  border: 0;
+  border: solid 1px lightgray;
+  border-radius: 2px;
   width: 90%;
-  height: 1200px;
+  height: calc(100vh - 320px);
 }
 .hal-container {
   text-align: center;
+  height: calc(100vh - 347px);
 }
+
+
 </style>

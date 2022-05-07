@@ -59,14 +59,16 @@ import logoRust from '../assets/logo-crates.svg';
 import logoNpm from '../assets/logo-npm.svg';
 import logoPypi from '../assets/logo-pypi.svg';
 import logoWeb from '../assets/logo-web.svg';
+import logoPaper from '../assets/logo-paper.svg';
 
 const logos = {
-  'crates': `<img style="width: 30px;" src="${logoRust}"/>`,
-  'pypi': `<img style="width: 30px;" src="${logoPypi}"/>`,
-  'github': `<img style="width: 30px;" src="${logoGithub}"/>`,
-  'npm': `<img style="width: 30px;" src="${logoNpm}"/>`,
-  'web': `<img style="width: 30px;" src="${logoWeb}"/>`,
-}
+  'crates': `<img title="crates.io" style="width: 30px;" src="${logoRust}"/>`,
+  'pypi': `<img title="PyPI" style="width: 30px;" src="${logoPypi}"/>`,
+  'github': `<img title="GitHub repository" style="width: 30px;" src="${logoGithub}"/>`,
+  'npm': `<img title="NPM" style="width: 30px;" src="${logoNpm}"/>`,
+  'web': `<img title="Web page" style="width: 30px;" src="${logoWeb}"/>`,
+  'paper': `<img title="Scientific publication" style="width: 30px;" src="${logoPaper}"/>`,
+};
 
 export default {
   name: "ProjectItem",

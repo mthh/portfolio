@@ -26,6 +26,9 @@ export default {
 </script>
 
 <style>
+html {
+  overflow-y: auto !important;
+}
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

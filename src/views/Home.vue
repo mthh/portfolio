@@ -7,7 +7,7 @@
       </figure>
       <h2>About me</h2>
       <div>
-        <p>I am currently a research engineer in computer science at the <a href="https://www.univ-grenoble-alpes.fr/">Université Grenoble Alpes</a>, working in the <a href="https://steamer.imag.fr/">STeamer research team</a> of the <a href="https://www.liglab.fr/">Grenoble Informatics Laboratory</a> (LIG).</p>
+        <p>I am currently a research engineer in software engineering at the <a href="https://www.univ-grenoble-alpes.fr/">Université Grenoble Alpes</a>, working in the <a href="https://steamer.imag.fr/">STeamer research team</a> of the <a href="https://www.liglab.fr/">Grenoble Informatics Laboratory</a> (LIG).</p>
         <p>On December 2021, I graduated from the Université Grenoble Alpes with a <a href="https://www.theses.fr/s208233">PhD in Computer Science</a>.
           Before that, from early 2014 to October 2018, I worked as a study engineer in geography and geographic information science.</p>
         <h4>Research interest</h4>
