@@ -53,4 +53,33 @@ document.addEventListener('DOMContentLoaded', () => {
 .router-link-active {
   font-weight: 600;
 }
+
+a {
+  border: none;
+}
+
+.navbar-item {
+  padding: 0.9rem;
+}
+
+.navbar-item::after{
+  content: '';
+  position: absolute;
+  width: 0px;
+  height: 5px;
+  left: 50%;
+  bottom:0;
+  background-color: yellow;
+  transition: all ease-in-out .2s;
+}
+
+.navbar-item:hover::after{
+  width: 100%;
+  left: 0;
+}
+
+.navbar-burger {
+  user-select: none;
+}
+
 </style>

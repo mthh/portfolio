@@ -1,15 +1,32 @@
 [
   {
+    "name": "GeoChange visualisation interface",
+    "types": ["Web application"],
+    "languages": ["JavaScript"],
+    "description": "The GeoChange visualisation interface is a Single Page Application dedicated to visualise the data processed and published in the GeoChange project. It uses notably Vue.js and Openlayers.\nThe aim of the application is to allow the user to compare two versions of a dataset through various visualisation components.",
+    "duration": "Jan. 2022 - Jul. 2022",
+    "context": "I designed and developed this application within the project GeoChange, which is funded by the SATT (technology transfer acceleration company) Linksium in collaboration with the Grenoble Informatics Laboratory (LIG) of Grenoble Alpes University.",
+    "images": [],
+    "links": {
+    }
+  },
+  {
     "name": "CoViKoa",
     "types": ["Research prototype"],
     "languages": ["Java", "Python", "JavaScript"],
     "description": "CoViKoa (which is an abbreviation for the french, albeit incorrect, sentence <em>Comment on Visualise Quoi</em>) is a framework for the geovisualisation of Semantic Web data. For this, it uses an ecosystem of 10 ontologies, 6 which are original proposals and 4 which are reused from the literature.\nIt allows a user (typically a knowledge engineer) to describe, in a purely declarative way and in RDF, a geovisualisation. This description is done in a specification document which is read by the framework and which allows, thanks to SHACL rules, to obtain a RDF graph containing the links between the data and their symbolisation within the components of a geovisualisation. Other elements such as the possibility of defining interactions and the possibility of transforming the data to be portrayed contribute to the creation of rich geovisualisations. The resulting RDF graph is published behind a SPARQL interface and we also provide a generic web client to create the corresponding geovisualisation using this graph. To test its relevance, we use it to visualise data from three different models.",
     "duration": "Dec. 2019 - Dec. 2021",
     "context": "This research prototype was made during my PhD, funded by the <a href=\"https://choucas.ign.fr/\">ANR CHOUCAS</a> project. It includes all the elements described in the 'Proposal' part of my thesis manuscript.",
-    "images": [{
-      "url": "/img/covikoala-cut.jpg",
+    "images": [
+      {
+      "url": "/img/covikoala-cut-resized.jpg",
       "title": "CoViKoa's logo - made by an anonymous friend"
-    }],
+      },
+      {
+        "url": "/img/covikoa-screenshot-loac-resized.jpg",
+        "title": "Example of UI that can be specified and generated with CoViKoa"
+      }
+    ],
     "links": {
       "github": "https://github.com/mthh/covikoa",
       "paper": "https://tel.archives-ouvertes.fr/tel-03578323"
@@ -20,9 +37,9 @@
     "languages": ["Python", "JavaScript"],
     "description": "GASPAR is a prototype of a geovisualisation application, intended to support the search for a victim to be located in the mountains, on the basis of imprecise location elements. It allows the use of various elements of the CHOUCAS project (concerning the provision of reference objects and concerning the spatialisation and fusion of location areas). For its part, GASPAR allows the capturing of the initial search area, the capturing of clues, and the restitution of the victim's location area in a 2d view and in a 3d view.\nIt uses libraries such as OpenLayers, Itowns and Lumino.js.\nAn article describing the latest version of the application is under review at the moment.",
     "duration": "Oct. 2018 - Dec. 2021",
-    "context": "This research prototype was made during my PhD funded by the <a href=\"https://choucas.ign.fr/\">ANR CHOUCAS</a> (however, my thesis manuscript does not specifically address this aspect).",
+    "context": "This research prototype was made during my PhD and during a short contract as a study engineer, both funded by the <a href=\"https://choucas.ign.fr/\">ANR CHOUCAS</a> (however, my thesis manuscript does not specifically address this aspect).",
     "images": [{
-      "url": "/img/gasparlogo.png",
+      "url": "/img/gasparlogo-resized.png",
       "title": "GASPAR's logo - generated from a DEM of the Grenoble area"
     }],
     "links": {
@@ -37,7 +54,10 @@
     "duration": "Feb. 2016 - Sept. 2018",
     "context": "I developed Magrit while working at the <a href=\"https://riate.cnrs.fr/\">UMS RIATE</a>. Design was made with Timothée Giraud and Nicolas Lambert, as well as thanks to the numerous feedbacks and suggestions from students or teachers. I am no longer actively maintaining it since Sept. 2018 (however I do sometimes make bug fixes if necessary) and the application is still <a href=\"http://magrit.cnrs.fr/\">online</a> (managed by the UMS RIATE) and in use.",
     "images": [{
-      "url": "https://raw.githubusercontent.com/mthh/example-magrit-projects/master/cinema_pot2.png",
+      "url": "/img/magrit-screenshot-cinemapot-resized.png",
+      "title": "An example of map made with Magrit"
+    }, {
+      "url": "/img/magrit-map-brazil-resized.png",
       "title": "An example of map made with Magrit"
     }],
     "links": {
@@ -52,7 +72,7 @@
     "duration": "Feb. 2017 - Sept. 2018",
     "context": "I developed Regioviz while working at the <a href=\"https://riate.cnrs.fr/\">UMS RIATE</a> as part of a project coordinated by French CGET (<em>Commissariat Général à l'Égalité des Territoires). Design was made with Ronan Ysebaert and Marianne Guérois and in association with the end-users via the CGET. All the work related to the data (modelling, preparation, etc.) was made by Ronan Ysebaert.",
     "images": [{
-      "url": "/img/screenshot-regioviz.jpg",
+      "url": "/img/screenshot-regioviz-resized.jpg",
       "title": "Screenshot of a portion of the Regioviz interface"
     }],
     "links": {
@@ -67,7 +87,7 @@
     "description": "Distance Cartogram is a Python plugin to QGIS3 allowing to make distance cartograms.\nThe technique consists in showing (on background(s) layer(s), such as the territorial divisions of the study zone) the local deformations (calculated using Waldo Tobler's bidimensional regression) to fit a layer of image points to a layer of source points. It is an appealing representation that allows, for example, the distortion of a reference space to represent travel times or estimated positions in spatial cognition.\nThe credit for this type of anamorphosis goes to Colette Cauvin (UMR Théma - Univ. Franche-Comté) and Gilles Vuidel (UMR Théma - CNRS) who first implemented it in Darcy tool.",
     "duration": "Feb. 2018 - Now",
     "images": [{
-      "url": "https://raw.githubusercontent.com/mthh/QgisDistanceCartogramPlugin/master/help/source/img/screenshot500.png",
+      "url": "/img/qgisdistancecartogram-screenshot-resized.png",
       "title": "Example of a distance cartogram"
     }],
     "links": {
@@ -84,6 +104,18 @@
     "links": {
       "github": "https://github.com/mthh/jenkspy",
       "pypi": "https://pypi.org/project/jenkspy/"
+    }
+  }, {
+    "name": "contours-rs",
+    "types": ["Library"],
+    "languages": ["Rust"],
+    "description": "A Rust library that computes isorings and contour polygons by applying marching squares to a grid of numeric values. This library can also be easily compiled to WebAssembly to be used from JS code for example (see the <a target=\"_blank\" href=\"https://mthh.github.io/wasm_demo_contour/\">demo page</a>).",
+    "duration": "Janv. 2019 - Now",
+    "images": [],
+    "links": {
+      "github": "https://github.com/mthh/contours-rs",
+      "crates": "https://crates.io/crates/contours",
+      "web": "https://mthh.github.io/wasm_demo_contour/"
     }
   }, {
     "name": "loc-i18next",

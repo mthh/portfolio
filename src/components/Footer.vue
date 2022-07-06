@@ -1,12 +1,12 @@
 <template>
   <footer class="content">
-    <p>© 2021 Matthieu Viry. Last updated on {{ getBuildDate() }}. Build with <a href="https://v3.vuejs.org/">Vue.js</a> and <a href="https://bulma.io/">Bulma</a> (<a href="https://github.com/mthh/portfolio">source</a>).</p>
+    <p>© 2021-2022 Matthieu Viry. Last updated on {{ getBuildDate() }}. Built with <a href="https://v3.vuejs.org/">Vue.js</a> and <a href="https://bulma.io/">Bulma</a> (<a href="https://github.com/mthh/portfolio">source</a>).</p>
   </footer>
 </template>
 
 <script>
 export default {
-  name: 'Footer',
+  name: 'Footer', // eslint-disable-line vue/no-reserved-component-names
   methods: {
     getBuildDate() {
       return document.documentElement.dataset.buildTimestampUtc.split('T')[0];

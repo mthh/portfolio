@@ -18,10 +18,10 @@
         </ul>
         <h4>Other interest</h4>
         <p>
-          I am also interested in software development (library, application) whether it is to process data related to my research interests (geographic information or Semantic Web data for example) or for user interface development in general.
+          I am also interested in software development (library or application) whether it is to process data related to my research interests (geographic information or Semantic Web data for example) or for user interface development in general.
         </p>
         <p>
-          I have experience with various languages and frameworks such as JavaScript (vanilla, d3.js, Vue.js, OpenLayers, Leaflet, Itowns), HTML and CSS (Bootstrap, Bulma), Python (FastApi, aiohttp, pandas, matplotlib, PyQt / PySide, Owlready, RDFLib), Cython, Rust (georust ecosystem), Java (Apache Jena) and I may even write C if necessary.
+          I have experience with various languages and frameworks such as JavaScript (vanilla, d3.js, Vue.js, OpenLayers, Leaflet, Itowns), HTML and CSS (Bootstrap, Bulma), Python (FastApi, aiohttp, pandas, geopandas, dask, matplotlib, PyQt / PySide, Owlready, RDFLib), Cython, Rust (georust ecosystem), Java (Apache Jena) and I may even write C if necessary.
         </p>
       </div>
     </section>
@@ -33,7 +33,6 @@
         <p>You can find me and see my contributions on <a href="https://github.com/mthh">GitHub</a> and on <a href="https://stackoverflow.com/users/5050917">StackOverflow</a> where I gave more than 130 answers.</p>
       </div>
     </section>
-
   </main>
 </template>
 

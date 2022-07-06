@@ -32,18 +32,21 @@
     <div class="description-container" v-if="description || images">
       <div class="description" v-html="formatDescription(description)">
       </div>
-      <figure
-          class="project image is-220x220"
+      <vueper-slides
+        class="no-shadow"
+        v-if="images && images.length > 0"
+        fade
+        :touchable="false"
+        :slide-ratio="1 / 1.5"
+      >
+        <vueper-slide
+          style="background-size: 100% auto; background-position: center; background-repeat: no-repeat;"
           v-for="(elem, idx) in images"
           :key="idx"
-      >
-        <img
-            :src="`${elem.url}`"
-            :title="elem.title"
-            :alt="elem.title"
-            @click="$emit('emitImage', { url: elem.url, title: elem.title })"
+          :image="elem.url"
+          @click="$emit('emitImage', { url: elem.url, title: elem.title })"
         />
-      </figure>
+      </vueper-slides>
     </div>
     <div v-if="context" class="context" v-html="formatContext(context)">
     </div>
@@ -54,12 +57,14 @@
 </template>
 
 <script>
+import { VueperSlides, VueperSlide } from 'vueperslides';
 import logoGithub from '../assets/logo-github.svg';
 import logoRust from '../assets/logo-crates.svg';
 import logoNpm from '../assets/logo-npm.svg';
 import logoPypi from '../assets/logo-pypi.svg';
 import logoWeb from '../assets/logo-web.svg';
 import logoPaper from '../assets/logo-paper.svg';
+import 'vueperslides/dist/vueperslides.css';
 
 const logos = {
   'crates': `<img title="crates.io" style="width: 30px;" src="${logoRust}"/>`,
@@ -72,6 +77,10 @@ const logos = {
 
 export default {
   name: "ProjectItem",
+  components: {
+    VueperSlides,
+    VueperSlide,
+  },
   props: {
     name: {
       type: String,
@@ -192,23 +201,6 @@ export default {
 .description > p {
   margin-bottom: 0.6em;
 }
-.project.image {
-  margin: 1em 0 1em 1em;
-  width: 100%;
-  border-radius: 40px;
-  cursor: pointer;
-  flex-basis: 30%;
-}
-.image.is-220x220 {
-  max-width: 220px;
-  max-height: 220px;
-}
-.project.image > img {
-  border: 1px solid #bababa;
-  border-radius: 1%;
-  padding: 2px;
-  background-color: #ffffff;
-}
 
 @media (max-width: 700px) {
   .project-item {
@@ -218,14 +210,34 @@ export default {
   .description-container {
     flex-flow: column-reverse;
   }
-  .project.image {
-    margin: 1em;
-  }
 }
 
 @media (max-width: 420px) {
   .subtitle-section {
     flex-flow: column-reverse;
   }
+}
+
+:deep(.vueperslides) {
+  cursor: pointer;
+  width: 50%;
+  margin-left: 1em;
+  border: solid 1px black;
+  background: black;
+  margin-bottom: 1em;
+  /*border: 1px solid #bababa;*/
+  /*border-radius: 1%;*/
+  /*padding: 2px;*/
+  /*background-color: #ffffff;*/
+}
+
+:deep(.vueperslides__bullets) {
+  bottom: -40px !important;
+
+}
+
+:deep(.vueperslides__arrow > svg > path) {
+  stroke: #9b9696;
+  stroke-width: 1.5px;
 }
 </style>

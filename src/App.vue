@@ -19,7 +19,7 @@ import Footer from './components/Footer';
 export default {
   name: 'App',
   components: {
-    Footer,
+    Footer, // eslint-disable-line vue/no-reserved-component-names
     NavBar,
   }
 };
