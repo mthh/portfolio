@@ -8,9 +8,9 @@
     </section>
     <section class="hal-container">
       <iframe
-          id="hal-frame"
-          title="Publications extracted from HAL"
-          src="https://haltools.archives-ouvertes.fr/Public/afficheRequetePubli.php?idHal=matthieu-viry&CB_ref_biblio=oui&langue=Anglais&tri_exp=annee_publi&tri_exp2=typdoc&tri_exp3=date_publi&ordre_aff=TA&Fen=Aff&css=../css/VisuRubriqueEncadre.css"
+        id="hal-frame"
+        title="Publications extracted from HAL"
+        src="https://haltools.archives-ouvertes.fr/Public/afficheRequetePubli.php?idHal=matthieu-viry&CB_ref_biblio=oui&langue=Anglais&tri_exp=annee_publi&tri_exp2=typdoc&tri_exp3=date_publi&ordre_aff=TA&Fen=Aff&css=../css/VisuRubriqueEncadre.css"
       />
     </section>
   </main>
@@ -18,7 +18,7 @@
 
 <script>
 export default {
-  name: "Publications.vue"
+  name: 'Publications.vue',
 };
 </script>
 
@@ -33,6 +33,5 @@ export default {
   text-align: center;
   height: calc(100vh - 347px);
 }
-
 
 </style>

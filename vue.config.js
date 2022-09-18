@@ -1,5 +1,7 @@
+const isProduction = process.env.NODE_ENV === 'production';
 module.exports = {
-    publicPath: process.env.NODE_ENV === 'production'
-        ? '/portfolio/'
-        : '/'
-}
+  lintOnSave: !isProduction,
+  publicPath: isProduction
+    ? '/portfolio/'
+    : '/',
+};

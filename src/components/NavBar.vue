@@ -2,7 +2,7 @@
   <nav class="navbar is-warning has-shadow">
     <div class="navbar-brand">
       <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navMenu">
-        <span aria-hidden="true"></span><span aria-hidden="true"></span><span aria-hidden="true"></span>
+        <span aria-hidden="true" /><span aria-hidden="true" /><span aria-hidden="true" />
       </a>
     </div>
     <div id="navMenu" class="navbar-menu is-warning">
@@ -19,7 +19,7 @@
 
 <script>
 export default {
-  "name": 'NavBar'
+  name: 'NavBar',
 };
 
 // Following code is from https://bulma.io/documentation/components/navbar/
@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', () => {
     $navbarBurgers.forEach((el) => {
       el.addEventListener('click', () => {
         // Get the target from the "data-target" attribute
-        const target = el.dataset.target;
+        const { target } = el.dataset;
         const $target = document.getElementById(target);
         // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
         el.classList.toggle('is-active');

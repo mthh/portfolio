@@ -3,8 +3,8 @@
     "name": "GeoChange visualisation interface",
     "types": ["Web application"],
     "languages": ["JavaScript"],
-    "description": "The GeoChange visualisation interface is a Single Page Application dedicated to visualise the data processed and published in the GeoChange project. It uses notably Vue.js and Openlayers.\nThe aim of the application is to allow the user to compare two versions of a dataset through various visualisation components.",
-    "duration": "Jan. 2022 - Jul. 2022",
+    "description": "The GeoChange visualisation interface is a Single Page Application dedicated to visualise the data processed and immersed in the Web of Data by the GeoChange project. It uses notably Vue.js and Openlayers.\nThe aim of the application is to allow the user to compare two versions of a dataset through various visualisation components.",
+    "duration": "Jan. 2022 - Aug. 2022",
     "context": "I designed and developed this application within the project GeoChange, which is funded by the SATT (technology transfer acceleration company) Linksium in collaboration with the Grenoble Informatics Laboratory (LIG) of Grenoble Alpes University.",
     "images": [],
     "links": {
@@ -35,7 +35,7 @@
     "name": "GASPAR",
     "types": ["Research prototype", "Web application"],
     "languages": ["Python", "JavaScript"],
-    "description": "GASPAR is a prototype of a geovisualisation application, intended to support the search for a victim to be located in the mountains, on the basis of imprecise location elements. It allows the use of various elements of the CHOUCAS project (concerning the provision of reference objects and concerning the spatialisation and fusion of location areas). For its part, GASPAR allows the capturing of the initial search area, the capturing of clues, and the restitution of the victim's location area in a 2d view and in a 3d view.\nIt uses libraries such as OpenLayers, Itowns and Lumino.js.\nAn article describing the latest version of the application is under review at the moment.",
+    "description": "GASPAR is a prototype of a geovisualisation application, intended to support the search for a victim to be located in the mountains, on the basis of imprecise location elements. It enables the use of various elements of the CHOUCAS project (concerning the provision of reference objects and concerning the spatialisation and fusion of location areas). For its part, GASPAR allows the capturing of the initial search area, the capturing of clues, and the restitution of the victim's location area in a 2d view and in a 3d view.\nIt uses libraries such as OpenLayers, Itowns and Lumino.js.\nAn article describing the latest version of the application is under review at the moment.",
     "duration": "Oct. 2018 - Dec. 2021",
     "context": "This research prototype was made during my PhD and during a short contract as a study engineer, both funded by the <a href=\"https://choucas.ign.fr/\">ANR CHOUCAS</a> (however, my thesis manuscript does not specifically address this aspect).",
     "images": [{
@@ -51,7 +51,7 @@
     "types": ["Web application"],
     "languages": ["Python", "JavaScript"],
     "description": "Magrit is an online application for thematic mapping (cartography). It's designed for teaching and learning cartography (in fact it is used by several teachers at the university for this purpose).\nIt allows the production of a wide variety of portrayals (choropleth, proportional symbols, cartogram, discontinuity, etc.), map customisation with classic design elements (scale, orientation, arrow, custom image), and the export of the maps created in various formats (notably in well-organised SVG which allows easy editing in a vector drawing software afterwards).\nFrom a technical point of view, Magrit is backed by a python 3.6+ application (particularly for some geoprocessing tasks relying on GDAL, GEOS and PROJ.4 libraries). On client-side, Magrit is written in modern JavaScript (ES6) and uses notably the d3.js library.",
-    "duration": "Feb. 2016 - Sept. 2018",
+    "duration": "Feb. 2016 - Sept. 2018 and since Aug. 2022",
     "context": "I developed Magrit while working at the <a href=\"https://riate.cnrs.fr/\">UMS RIATE</a>. Design was made with Timothée Giraud and Nicolas Lambert, as well as thanks to the numerous feedbacks and suggestions from students or teachers. I am no longer actively maintaining it since Sept. 2018 (however I do sometimes make bug fixes if necessary) and the application is still <a href=\"http://magrit.cnrs.fr/\">online</a> (managed by the UMS RIATE) and in use.",
     "images": [{
       "url": "/img/magrit-screenshot-cinemapot-resized.png",
@@ -98,7 +98,7 @@
     "name": "Jenkspy",
     "types": ["Library"],
     "languages": ["Python"],
-    "description": "Jenkspy is a fast implementation (the core processing is coded in C and wrapped with Cython) of the Fisher-Jenks 1d classification algorithm which is frequently used in cartography.\nAccording to PyPi Stats, it is downloaded several thousand times a day on PyPI.",
+    "description": "Jenkspy is a fast implementation (the core processing is coded in C and wrapped with Cython) of the Fisher-Jenks 1d classification algorithm which is frequently used in cartography.\nAccording to PyPi Stats, it is downloaded one to several thousand times a day on PyPI.",
     "duration": "Sept. 2016 - Now",
     "images": [],
     "links": {
@@ -121,7 +121,7 @@
     "name": "loc-i18next",
     "types": ["Library"],
     "languages": ["JavaScript"],
-    "description": "loc-i18next is a 0-dependency JavaScript library, inspired by jquery-i18next, which allows to use HTML5 selectors to select in JavaScript the elements to be translated by i18next.\nAlthough it is less used nowadays, it still counts several hundred downloads each week on npm.",
+    "description": "loc-i18next is a 0-dependency JavaScript library, inspired by jquery-i18next, that allows the user to use HTML5 selectors to select in JavaScript the elements to be translated by i18next.\nAlthough it is less used nowadays, it still counts several hundred downloads each week on npm and it is notably used by Magrit.",
     "duration": "Oct 2016 - Now",
     "images": [],
     "links": {
@@ -132,7 +132,7 @@
     "name": "sfcgal-rs",
     "types": ["Library"],
     "languages": ["Rust"],
-    "description": "A Rust wrapper around <a href\"https://gitlab.com/Oslandia/SFCGAL\">SFCGAL</a> C API.\nIn addition to exposing the various functionalities of SFCGAL, it allows easy conversions to / from the data structures of other crates in the georust ecosystem.",
+    "description": "A Rust wrapper around <a href\"https://gitlab.com/Oslandia/SFCGAL\">SFCGAL</a> C API.\nIn addition to exposing the various functionalities of SFCGAL, it enables easy conversions to / from the data structures of other crates in the georust ecosystem.",
     "duration": "Feb. 2019 - Now",
     "images": [],
     "links": {
@@ -143,7 +143,7 @@
     "name": "Miscellaneous opensource contributions",
     "types": ["Library"],
     "languages": ["Python", "Rust", "JavaScript"],
-    "description": "I also made a few minor contributions (bug fixes, documentation or improvements) to some open-source projects I love :\n- <a href=\"https://github.com/georust/gdal\">georust/gdal</a> (<a href=\"https://github.com/georust/gdal/pull/29\">#29</a>, <a href=\"https://github.com/georust/gdal/pull/31\">#31</a>)\n- <a href=\"https://github.com/georust/geojson\">georust/geojson</a> (<a href=\"https://github.com/georust/geojson/pull/68\">#68</a>, <a href=\"https://github.com/georust/geojson/pull/70\">#70</a>, <a href=\"https://github.com/georust/geojson/pull/76\">#76</a>, <a href=\"https://github.com/georust/geojson/pull/79\">#79</a>, <a href=\"https://github.com/georust/geojson/pull/105\">#105</a>, <a href=\"https://github.com/georust/geojson/pull/106\">#106</a>)\n- <a href=\"https://github.com/georust/topojson/\">georust/topojson</a> <a href=\"https://github.com/georust/topojson/pull/6\">(#6)</a>\n- <a href=\"https://github.com/georust/geos\">georust/geos</a> (I was the creator / maintainer until it was given to georust community - <a href=\"https://github.com/georust/geos/pull/11\">#11</a>, <a href=\"https://github.com/georust/geos/pull/18\">#18</a>, <a href=\"https://github.com/georust/geos/pull/19\">#19</a>)\n- <a href=\"https://github.com/d3/d3-geo-projection\">d3/d3-geo-projection</a> (<a href=\"https://github.com/d3/d3-geo-projection/pull/101\">#101</a>)\n- <a href=\"https://github.com/d3/d3-geo\">d3/d3-geo</a> (<a href=\"https://github.com/d3/d3-geo/pull/114\">#114</a>)\n- <a href=\"https://github.com/geopandas/geopandas/\">geopandas/geopandas</a> (<a href=\"https://github.com/geopandas/geopandas/pull/781\">#781</a>)\n- <a href=\"https://github.com/Turbo87/flat-projection-rs\">Turbo87/flat-projection-rs</a> (<a href=\"https://github.com/Turbo87/flat-projection-rs/pull/8\">#8</a>, <a href=\"https://github.com/Turbo87/flat-projection-rs/pull/9\">#9</a>)\n- <a href=\"https://github.com/rust-lang/mdBook/\">rust-lang/mdBook</a> (<a href=\"https://github.com/rust-lang/mdBook/pull/248\">#248</a>)\n- <a href=\"https://github.com/mrhooray/kdtree-rs\">mrhooray/kdtree-rs</a> (<a href=\"https://github.com/mrhooray/kdtree-rs/pull/15\">#15</a>)",
+    "description": "I also made a few contributions (bug fixes, documentation or improvements) to some open-source projects I love :\n- <a href=\"https://github.com/georust/gdal\">georust/gdal</a> (<a href=\"https://github.com/georust/gdal/pull/29\">#29</a>, <a href=\"https://github.com/georust/gdal/pull/31\">#31</a>)\n- <a href=\"https://github.com/georust/geojson\">georust/geojson</a> (<a href=\"https://github.com/georust/geojson/pull/68\">#68</a>, <a href=\"https://github.com/georust/geojson/pull/70\">#70</a>, <a href=\"https://github.com/georust/geojson/pull/76\">#76</a>, <a href=\"https://github.com/georust/geojson/pull/79\">#79</a>, <a href=\"https://github.com/georust/geojson/pull/105\">#105</a>, <a href=\"https://github.com/georust/geojson/pull/106\">#106</a>)\n- <a href=\"https://github.com/georust/topojson/\">georust/topojson</a> <a href=\"https://github.com/georust/topojson/pull/6\">(#6)</a>\n- <a href=\"https://github.com/georust/geos\">georust/geos</a> (I was the creator / maintainer until it was given to georust community - <a href=\"https://github.com/georust/geos/pull/11\">#11</a>, <a href=\"https://github.com/georust/geos/pull/18\">#18</a>, <a href=\"https://github.com/georust/geos/pull/19\">#19</a>, <a href=\"https://github.com/georust/geos/pull/73\">#73</a>)\n- <a href=\"https://github.com/d3/d3-geo-projection\">d3/d3-geo-projection</a> (<a href=\"https://github.com/d3/d3-geo-projection/pull/101\">#101</a>)\n- <a href=\"https://github.com/d3/d3-geo\">d3/d3-geo</a> (<a href=\"https://github.com/d3/d3-geo/pull/114\">#114</a>)\n- <a href=\"https://github.com/geopandas/geopandas/\">geopandas/geopandas</a> (<a href=\"https://github.com/geopandas/geopandas/pull/781\">#781</a>)\n- <a href=\"https://github.com/Turbo87/flat-projection-rs\">Turbo87/flat-projection-rs</a> (<a href=\"https://github.com/Turbo87/flat-projection-rs/pull/8\">#8</a>, <a href=\"https://github.com/Turbo87/flat-projection-rs/pull/9\">#9</a>)\n- <a href=\"https://github.com/rust-lang/mdBook/\">rust-lang/mdBook</a> (<a href=\"https://github.com/rust-lang/mdBook/pull/248\">#248</a>)\n- <a href=\"https://github.com/mrhooray/kdtree-rs\">mrhooray/kdtree-rs</a> (<a href=\"https://github.com/mrhooray/kdtree-rs/pull/15\">#15</a>)\n- <a href=\"https://github.com/neocarto/statsbreaks\">neocarto/statsbreaks</a> (<a href=\"https://github.com/neocarto/statsbreaks/pull/3\">#3</a>, <a href=\"https://github.com/neocarto/statsbreaks/pull/4\">#4</a>, <a href=\"https://github.com/neocarto/statsbreaks/pull/5\">#5</a>)\n",
     "duration": "",
     "note": "This is a non-exhaustive list, more of my contributions can be found on my GitHub profile and I have other minor libraries published for example on crates.io (although they are not widely used).",
     "images": []

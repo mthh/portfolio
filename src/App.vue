@@ -1,6 +1,6 @@
 <template>
   <header>
-    <NavBar></NavBar>
+    <NavBar />
   </header>
 
   <router-view v-slot="{ Component }">
@@ -9,19 +9,19 @@
     </transition>
   </router-view>
 
-  <Footer></Footer>
+  <Footer />
 </template>
 
 <script>
-import NavBar from './components/NavBar';
-import Footer from './components/Footer';
+import NavBar from './components/NavBar.vue';
+import Footer from './components/Footer.vue';
 
 export default {
   name: 'App',
   components: {
     Footer, // eslint-disable-line vue/no-reserved-component-names
     NavBar,
-  }
+  },
 };
 </script>
 

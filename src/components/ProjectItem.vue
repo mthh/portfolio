@@ -4,14 +4,14 @@
       <h3>{{ name }}</h3>
       <div class="tags">
         <span
-            v-for="(type, idx) in types"
-            :key="idx"
-            class="tag is-info"
+          v-for="(type, idx) in types"
+          :key="idx"
+          class="tag is-info"
         >{{ type }}</span>
         <span
-            v-for="(type, idx) in languages"
-            :key="idx"
-            class="tag is-danger"
+          v-for="(type, idx) in languages"
+          :key="idx"
+          class="tag is-danger"
         >{{ type }}</span>
       </div>
     </div>
@@ -21,17 +21,15 @@
       </div>
       <div v-if="links" class="links">
         <div
-            class="link-image-container"
-            v-for="(elem, idx) in Object.keys(links)"
-            :key="idx"
-            v-html="makeImageLink(elem)"
-        >
-        </div>
+          class="link-image-container"
+          v-for="(elem, idx) in Object.keys(links)"
+          :key="idx"
+          v-html="makeImageLink(elem)"
+        />
       </div>
     </div>
     <div class="description-container" v-if="description || images">
-      <div class="description" v-html="formatDescription(description)">
-      </div>
+      <div class="description" v-html="formatDescription(description)" />
       <vueper-slides
         class="no-shadow"
         v-if="images && images.length > 0"
@@ -48,8 +46,7 @@
         />
       </vueper-slides>
     </div>
-    <div v-if="context" class="context" v-html="formatContext(context)">
-    </div>
+    <div v-if="context" class="context" v-html="formatContext(context)" />
     <div v-if="note" class="note">
       {{ note }}
     </div>
@@ -67,16 +64,16 @@ import logoPaper from '../assets/logo-paper.svg';
 import 'vueperslides/dist/vueperslides.css';
 
 const logos = {
-  'crates': `<img title="crates.io" style="width: 30px;" src="${logoRust}"/>`,
-  'pypi': `<img title="PyPI" style="width: 30px;" src="${logoPypi}"/>`,
-  'github': `<img title="GitHub repository" style="width: 30px;" src="${logoGithub}"/>`,
-  'npm': `<img title="NPM" style="width: 30px;" src="${logoNpm}"/>`,
-  'web': `<img title="Web page" style="width: 30px;" src="${logoWeb}"/>`,
-  'paper': `<img title="Scientific publication" style="width: 30px;" src="${logoPaper}"/>`,
+  crates: `<img title="crates.io" style="width: 30px;" src="${logoRust}"/>`,
+  pypi: `<img title="PyPI" style="width: 30px;" src="${logoPypi}"/>`,
+  github: `<img title="GitHub repository" style="width: 30px;" src="${logoGithub}"/>`,
+  npm: `<img title="NPM" style="width: 30px;" src="${logoNpm}"/>`,
+  web: `<img title="Web page" style="width: 30px;" src="${logoWeb}"/>`,
+  paper: `<img title="Scientific publication" style="width: 30px;" src="${logoPaper}"/>`,
 };
 
 export default {
-  name: "ProjectItem",
+  name: 'ProjectItem',
   components: {
     VueperSlides,
     VueperSlide,
@@ -88,11 +85,11 @@ export default {
     },
     types: {
       type: Array,
-      required: false,
+      required: true,
     },
     languages: {
       type: Array,
-      required: false,
+      required: true,
     },
     description: {
       type: String,
@@ -101,28 +98,33 @@ export default {
     images: {
       type: Array,
       required: false,
+      default: () => [],
     },
     links: {
       type: Object,
       required: false,
+      default: () => null,
     },
     duration: {
       type: String,
       required: false,
+      default: () => null,
     },
     context: {
       type: String,
       required: false,
+      default: () => null,
     },
     note: {
       type: String,
       required: false,
-    }
+      default: () => null,
+    },
   },
   emits: {
     emitImage: {
       type: String,
-    }
+    },
   },
   methods: {
     formatDescription(description) {
@@ -135,7 +137,7 @@ export default {
     },
     formatContext(context) {
       return `Context: ${context}`;
-    }
+    },
   },
 };
 </script>

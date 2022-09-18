@@ -10,8 +10,8 @@ export default {
   methods: {
     getBuildDate() {
       return document.documentElement.dataset.buildTimestampUtc.split('T')[0];
-    }
-  }
+    },
+  },
 };
 </script>
 

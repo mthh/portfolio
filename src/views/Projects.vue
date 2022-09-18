@@ -3,33 +3,33 @@
     <h1>Projects</h1>
     <section class="projects-holder">
       <ProjectItem
-          v-for="(project, idx) in projects"
-          :key="idx"
-          :name="project.name"
-          :types="project.types"
-          :languages="project.languages"
-          :description="project.description"
-          :images="project.images"
-          :links="project.links"
-          :duration="project.duration"
-          :context="project.context"
-          :note="project.note"
-          v-on:emit-image="[
-              (showImage = true),
-              (previewImageUrl = $event.url),
-              (previewImageTitle = $event.title)]"
+        v-for="(project, idx) in projects"
+        :key="idx"
+        :name="project.name"
+        :types="project.types"
+        :languages="project.languages"
+        :description="project.description"
+        :images="project.images"
+        :links="project.links"
+        :duration="project.duration"
+        :context="project.context"
+        :note="project.note"
+        v-on:emit-image="[
+          (showImage = true),
+          (previewImageUrl = $event.url),
+          (previewImageTitle = $event.title)]"
       />
     </section>
     <transition name="image-preview-transition">
       <div
-          v-if="showImage"
-          class="image-preview-container"
-          @click="[(showImage = false), (previewImageUrl = ''), (previewImageTitle = '')]"
+        v-if="showImage"
+        class="image-preview-container"
+        @click="[(showImage = false), (previewImageUrl = ''), (previewImageTitle = '')]"
       >
         <img
-            :src="previewImageUrl"
-            :alt="previewImageTitle"
-            class="image-preview"
+          :src="previewImageUrl"
+          :alt="previewImageTitle"
+          class="image-preview"
         />
         <h4>{{previewImageTitle}}</h4>
       </div>
@@ -38,7 +38,7 @@
 </template>
 
 <script>
-import ProjectItem from '../components/ProjectItem';
+import ProjectItem from '../components/ProjectItem.vue';
 import projects from '../assets/projects.json';
 
 export default {
@@ -98,4 +98,3 @@ export default {
   opacity: 0;
 }
 </style>
-

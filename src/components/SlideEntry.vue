@@ -15,7 +15,7 @@
  * (for example to display a thumbnail of each entry)
  */
 export default {
-  name: "SlideEntry",
+  name: 'SlideEntry',
   props: {
     title: {
       type: String,
@@ -27,25 +27,27 @@ export default {
     },
     url: {
       type: String,
-      required: false,
+      required: true,
     },
     note: {
       type: String,
       required: false,
+      default: () => null,
     },
     conference: {
       type: String,
       required: false,
+      default: () => null,
     },
-    thumbnail: {
-      type: String,
-      required: false,
-    },
+    // thumbnail: {
+    //   type: String,
+    //   required: false,
+    // },
     place: {
       type: String,
       required: false,
-    }
-  }
-}
+      default: () => null,
+    },
+  },
+};
 </script>
-

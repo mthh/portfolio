@@ -6,8 +6,8 @@
 
 <script>
 export default {
-  name: 'NotFound.vue'
-}
+  name: 'NotFound.vue',
+};
 </script>
 
 <style scoped>
