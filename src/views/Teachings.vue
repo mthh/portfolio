@@ -28,6 +28,10 @@
           <strong>Des données à la cartographie : cartographie thématique</strong>
           (2021-2022) - M1 GAED-GEOMAS / M1 GAED-GEOPOESICE (IUGA / Univ. Grenoble Alpes)
         </li>
+        <li>
+          <strong>Introduction aux technologies Web</strong>
+          (2022-2023) - M1 Management des Systèmes d'Information (IAE / Univ. Grenoble Alpes)
+        </li>
       </ul>
     </section>
   </main>

@@ -1,5 +1,24 @@
 [
   {
+    "name": "Magrit",
+    "types": ["Web application"],
+    "languages": ["Python", "JavaScript"],
+    "description": "Magrit is an online application for thematic mapping (cartography). It's designed for teaching and learning cartography (in fact it is used by several teachers at the university for this purpose).\nIt allows the production of a wide variety of portrayals (choropleth, proportional symbols, cartogram, discontinuity, etc.), map customisation with classic design elements (scale, orientation, arrow, custom image), and the export of the maps created in various formats (notably in well-organised SVG which allows easy editing in a vector drawing software afterwards).\nFrom a technical point of view, Magrit is backed by a python 3.6+ application (particularly for some geoprocessing tasks relying on GDAL, GEOS and PROJ.4 libraries). On client-side, Magrit is written in modern JavaScript (ES6) and uses notably the d3.js library.",
+    "duration": "Feb. 2016 - Sept. 2018 and since Aug. 2022",
+    "context": "I developed Magrit while working at the <a href=\"https://riate.cnrs.fr/\">UMS RIATE</a>. Design was made with Timothée Giraud and Nicolas Lambert, as well as thanks to the numerous feedbacks and suggestions from students or teachers. I am no longer actively maintaining it since Sept. 2018 (however I do sometimes make bug fixes if necessary) and the application is still <a href=\"http://magrit.cnrs.fr/\">online</a> (managed by the UMS RIATE) and in use.",
+    "images": [{
+      "url": "/img/magrit-screenshot-cinemapot-resized.png",
+      "title": "An example of map made with Magrit"
+    }, {
+      "url": "/img/magrit-map-brazil-resized.png",
+      "title": "An example of map made with Magrit"
+    }],
+    "links": {
+      "github": "https://github.com/riatelab/magrit",
+      "web": "http://magrit.cnrs.fr"
+    }
+  },
+  {
     "name": "GeoChange visualisation interface",
     "types": ["Web application"],
     "languages": ["JavaScript"],
@@ -31,7 +50,8 @@
       "github": "https://github.com/mthh/covikoa",
       "paper": "https://tel.archives-ouvertes.fr/tel-03578323"
     }
-  }, {
+  },
+  {
     "name": "GASPAR",
     "types": ["Research prototype", "Web application"],
     "languages": ["Python", "JavaScript"],
@@ -46,25 +66,8 @@
       "github": "https://github.com/ANRChoucas/GASPAR",
       "web": "https://steamer.imag.fr/?page_id=792"
     }
-  },{
-    "name": "Magrit",
-    "types": ["Web application"],
-    "languages": ["Python", "JavaScript"],
-    "description": "Magrit is an online application for thematic mapping (cartography). It's designed for teaching and learning cartography (in fact it is used by several teachers at the university for this purpose).\nIt allows the production of a wide variety of portrayals (choropleth, proportional symbols, cartogram, discontinuity, etc.), map customisation with classic design elements (scale, orientation, arrow, custom image), and the export of the maps created in various formats (notably in well-organised SVG which allows easy editing in a vector drawing software afterwards).\nFrom a technical point of view, Magrit is backed by a python 3.6+ application (particularly for some geoprocessing tasks relying on GDAL, GEOS and PROJ.4 libraries). On client-side, Magrit is written in modern JavaScript (ES6) and uses notably the d3.js library.",
-    "duration": "Feb. 2016 - Sept. 2018 and since Aug. 2022",
-    "context": "I developed Magrit while working at the <a href=\"https://riate.cnrs.fr/\">UMS RIATE</a>. Design was made with Timothée Giraud and Nicolas Lambert, as well as thanks to the numerous feedbacks and suggestions from students or teachers. I am no longer actively maintaining it since Sept. 2018 (however I do sometimes make bug fixes if necessary) and the application is still <a href=\"http://magrit.cnrs.fr/\">online</a> (managed by the UMS RIATE) and in use.",
-    "images": [{
-      "url": "/img/magrit-screenshot-cinemapot-resized.png",
-      "title": "An example of map made with Magrit"
-    }, {
-      "url": "/img/magrit-map-brazil-resized.png",
-      "title": "An example of map made with Magrit"
-    }],
-    "links": {
-      "github": "https://github.com/riatelab/magrit",
-      "web": "http://magrit.cnrs.fr"
-    }
-  }, {
+  },
+  {
     "name": "Regioviz",
     "types": ["Research prototype", "Web application"],
     "languages": ["JavaScript"],
@@ -80,7 +83,8 @@
       "web": "https://riatelab.github.io/regiovizlab/",
       "paper": "https://doi.org/10.4000/mappemonde.7498"
     }
-  }, {
+  },
+  {
     "name": "QGIS Distance Cartogram Plugin",
     "types": ["QGIS Plugin"],
     "languages": ["Python"],
@@ -94,7 +98,8 @@
       "github": "https://github.com/mthh/QgisDistanceCartogramPlugin",
       "web": "https://plugins.qgis.org/plugins/dist_cartogram/"
     }
-  }, {
+  },
+  {
     "name": "Jenkspy",
     "types": ["Library"],
     "languages": ["Python"],
@@ -105,7 +110,8 @@
       "github": "https://github.com/mthh/jenkspy",
       "pypi": "https://pypi.org/project/jenkspy/"
     }
-  }, {
+  },
+  {
     "name": "contours-rs",
     "types": ["Library"],
     "languages": ["Rust"],
@@ -117,7 +123,8 @@
       "crates": "https://crates.io/crates/contours",
       "web": "https://mthh.github.io/wasm_demo_contour/"
     }
-  }, {
+  },
+  {
     "name": "loc-i18next",
     "types": ["Library"],
     "languages": ["JavaScript"],
@@ -128,7 +135,8 @@
       "github": "https://github.com/mthh/loc-i18next",
       "npm": "https://www.npmjs.com/package/loc-i18next"
     }
-  }, {
+  },
+  {
     "name": "sfcgal-rs",
     "types": ["Library"],
     "languages": ["Rust"],
@@ -139,11 +147,12 @@
       "github": "https://github.com/mthh/sfcgal-rs",
       "crates": "https://crates.io/crates/sfcgal"
     }
-  }, {
+  },
+  {
     "name": "Miscellaneous opensource contributions",
     "types": ["Library"],
     "languages": ["Python", "Rust", "JavaScript"],
-    "description": "I also made a few contributions (bug fixes, documentation or improvements) to some open-source projects I love :\n- <a href=\"https://github.com/georust/gdal\">georust/gdal</a> (<a href=\"https://github.com/georust/gdal/pull/29\">#29</a>, <a href=\"https://github.com/georust/gdal/pull/31\">#31</a>)\n- <a href=\"https://github.com/georust/geojson\">georust/geojson</a> (<a href=\"https://github.com/georust/geojson/pull/68\">#68</a>, <a href=\"https://github.com/georust/geojson/pull/70\">#70</a>, <a href=\"https://github.com/georust/geojson/pull/76\">#76</a>, <a href=\"https://github.com/georust/geojson/pull/79\">#79</a>, <a href=\"https://github.com/georust/geojson/pull/105\">#105</a>, <a href=\"https://github.com/georust/geojson/pull/106\">#106</a>)\n- <a href=\"https://github.com/georust/topojson/\">georust/topojson</a> <a href=\"https://github.com/georust/topojson/pull/6\">(#6)</a>\n- <a href=\"https://github.com/georust/geos\">georust/geos</a> (I was the creator / maintainer until it was given to georust community - <a href=\"https://github.com/georust/geos/pull/11\">#11</a>, <a href=\"https://github.com/georust/geos/pull/18\">#18</a>, <a href=\"https://github.com/georust/geos/pull/19\">#19</a>, <a href=\"https://github.com/georust/geos/pull/73\">#73</a>)\n- <a href=\"https://github.com/d3/d3-geo-projection\">d3/d3-geo-projection</a> (<a href=\"https://github.com/d3/d3-geo-projection/pull/101\">#101</a>)\n- <a href=\"https://github.com/d3/d3-geo\">d3/d3-geo</a> (<a href=\"https://github.com/d3/d3-geo/pull/114\">#114</a>)\n- <a href=\"https://github.com/geopandas/geopandas/\">geopandas/geopandas</a> (<a href=\"https://github.com/geopandas/geopandas/pull/781\">#781</a>)\n- <a href=\"https://github.com/Turbo87/flat-projection-rs\">Turbo87/flat-projection-rs</a> (<a href=\"https://github.com/Turbo87/flat-projection-rs/pull/8\">#8</a>, <a href=\"https://github.com/Turbo87/flat-projection-rs/pull/9\">#9</a>)\n- <a href=\"https://github.com/rust-lang/mdBook/\">rust-lang/mdBook</a> (<a href=\"https://github.com/rust-lang/mdBook/pull/248\">#248</a>)\n- <a href=\"https://github.com/mrhooray/kdtree-rs\">mrhooray/kdtree-rs</a> (<a href=\"https://github.com/mrhooray/kdtree-rs/pull/15\">#15</a>)\n- <a href=\"https://github.com/neocarto/statsbreaks\">neocarto/statsbreaks</a> (<a href=\"https://github.com/neocarto/statsbreaks/pull/3\">#3</a>, <a href=\"https://github.com/neocarto/statsbreaks/pull/4\">#4</a>, <a href=\"https://github.com/neocarto/statsbreaks/pull/5\">#5</a>)\n",
+    "description": "I also made a few contributions (bug fixes, documentation or improvements) to some open-source projects I love :\n- <a href=\"https://github.com/georust/gdal\">georust/gdal</a> (<a href=\"https://github.com/georust/gdal/pull/29\">#29</a>, <a href=\"https://github.com/georust/gdal/pull/31\">#31</a>)\n- <a href=\"https://github.com/georust/geojson\">georust/geojson</a> (<a href=\"https://github.com/georust/geojson/pull/68\">#68</a>, <a href=\"https://github.com/georust/geojson/pull/70\">#70</a>, <a href=\"https://github.com/georust/geojson/pull/76\">#76</a>, <a href=\"https://github.com/georust/geojson/pull/79\">#79</a>, <a href=\"https://github.com/georust/geojson/pull/105\">#105</a>, <a href=\"https://github.com/georust/geojson/pull/106\">#106</a>)\n- <a href=\"https://github.com/georust/topojson/\">georust/topojson</a> <a href=\"https://github.com/georust/topojson/pull/6\">(#6)</a>\n- <a href=\"https://github.com/georust/geos\">georust/geos</a> (I was the creator / maintainer until it was given to georust community - <a href=\"https://github.com/georust/geos/pull/11\">#11</a>, <a href=\"https://github.com/georust/geos/pull/18\">#18</a>, <a href=\"https://github.com/georust/geos/pull/19\">#19</a>, <a href=\"https://github.com/georust/geos/pull/73\">#73</a>)\n- <a href=\"https://github.com/d3/d3-geo-projection\">d3/d3-geo-projection</a> (<a href=\"https://github.com/d3/d3-geo-projection/pull/101\">#101</a>)\n- <a href=\"https://github.com/d3/d3-geo\">d3/d3-geo</a> (<a href=\"https://github.com/d3/d3-geo/pull/114\">#114</a>)\n- <a href=\"https://github.com/geopandas/geopandas/\">geopandas/geopandas</a> (<a href=\"https://github.com/geopandas/geopandas/pull/781\">#781</a>)\n- <a href=\"https://github.com/Turbo87/flat-projection-rs\">Turbo87/flat-projection-rs</a> (<a href=\"https://github.com/Turbo87/flat-projection-rs/pull/8\">#8</a>, <a href=\"https://github.com/Turbo87/flat-projection-rs/pull/9\">#9</a>)\n- <a href=\"https://github.com/rust-lang/mdBook/\">rust-lang/mdBook</a> (<a href=\"https://github.com/rust-lang/mdBook/pull/248\">#248</a>)\n- <a href=\"https://github.com/mrhooray/kdtree-rs\">mrhooray/kdtree-rs</a> (<a href=\"https://github.com/mrhooray/kdtree-rs/pull/15\">#15</a>)\n- <a href=\"https://github.com/neocarto/statsbreaks\">neocarto/statsbreaks</a> (<a href=\"https://github.com/neocarto/statsbreaks/pull/3\">#3</a>, <a href=\"https://github.com/neocarto/statsbreaks/pull/4\">#4</a>, <a href=\"https://github.com/neocarto/statsbreaks/pull/5\">#5</a>)\n- <a href=\"https://github.com/bugra9/gdal3.js\">bugra9/gdal3.js</a> (<a href=\"https://github.com/bugra9/gdal3.js/pull/37\">#37</a>, <a href=\"https://github.com/bugra9/gdal3.js/pull/42\">#42</a>)\n",
     "duration": "",
     "note": "This is a non-exhaustive list, more of my contributions can be found on my GitHub profile and I have other minor libraries published for example on crates.io (although they are not widely used).",
     "images": []
