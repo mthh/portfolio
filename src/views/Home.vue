@@ -7,8 +7,8 @@
       </figure>
       <h2>About me</h2>
       <div>
-        <p>I am currently a research engineer in software engineering at the
-          <a href="https://riate.cnrs.fr/">UAR RIATE</a>.</p>
+        <p>I am a research engineer at CNRS, working at the
+          <a href="https://riate.cnrs.fr/">UAR RIATE</a> in software engineering.</p>
         <p>On December 2021, I graduated from the <i>Université Grenoble Alpes</i> with
           a <a href="https://www.theses.fr/s208233">PhD in Computer Science</a>,
           performed in the <a href="https://steamer.imag.fr/">STeamer research team</a>
@@ -35,8 +35,8 @@
           HTML and CSS (Bootstrap, Bulma),
           Python (FastApi, aiohttp, pandas, geopandas, dask,
           matplotlib, PyQt / PySide, Owlready, RDFLib),
-          Cython, Rust (georust ecosystem), Java (Apache Jena)
-          and I may even write C if necessary.
+          Cython, Rust (notably with the georust ecosystem), Java (Apache Jena)
+          and I can even write C if necessary.
         </p>
       </div>
     </section>
