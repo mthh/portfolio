@@ -25,3 +25,7 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+## Publishing to GitHub Pages
+
+A GitHub workflow builds the project and publishes it to the `gh-pages` branch (defined in [`.github/workflows/main.yml`](.github/workflows/main.yml)).
