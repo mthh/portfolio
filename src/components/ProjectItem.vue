@@ -41,8 +41,8 @@
           style="background-size: 100% auto; background-position: center; background-repeat: no-repeat;"
           v-for="(elem, idx) in images"
           :key="idx"
-          :image="elem.url"
-          @click="$emit('emitImage', { url: elem.url, title: elem.title })"
+          :image="publicPath + elem.url"
+          @click="$emit('emitImage', { url: publicPath + elem.url, title: elem.title })"
         />
       </vueper-slides>
     </div>
@@ -62,6 +62,7 @@ import logoPypi from '../assets/logo-pypi.svg';
 import logoWeb from '../assets/logo-web.svg';
 import logoPaper from '../assets/logo-paper.svg';
 import 'vueperslides/dist/vueperslides.css';
+import { publicPath } from '../../vue.config';
 
 const logos = {
   crates: `<img title="crates.io" style="width: 30px;" src="${logoRust}"/>`,
@@ -74,6 +75,11 @@ const logos = {
 
 export default {
   name: 'ProjectItem',
+  computed: {
+    publicPath() {
+      return publicPath;
+    },
+  },
   components: {
     VueperSlides,
     VueperSlide,

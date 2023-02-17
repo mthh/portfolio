@@ -7,10 +7,10 @@
     "duration": "Feb. 2016 - Sept. 2018 and since Aug. 2022",
     "context": "I developed Magrit while working at the <a href=\"https://riate.cnrs.fr/\">UAR RIATE</a> as a study engineer. Design was made with Timothée Giraud and Nicolas Lambert, as well as thanks to the numerous feedbacks and suggestions from students or teachers. The app has been live since February 2017 and is still under development (after a break between Oct. 2018 and Aug. 2022, its development resumed more assiduously in 2022).",
     "images": [{
-      "url": "/img/magrit-screenshot-cinemapot-resized.png",
+      "url": "img/magrit-screenshot-cinemapot-resized.png",
       "title": "An example of map made with Magrit"
     }, {
-      "url": "/img/magrit-map-brazil-resized.png",
+      "url": "img/magrit-map-brazil-resized.png",
       "title": "An example of map made with Magrit"
     }],
     "links": {
@@ -38,11 +38,11 @@
     "context": "This research prototype was made during my PhD, funded by the <a href=\"https://choucas.ign.fr/\">ANR CHOUCAS</a> project. It includes all the elements described in the 'Proposal' part of my thesis manuscript.",
     "images": [
       {
-      "url": "/img/covikoala-cut-resized.jpg",
+      "url": "img/covikoala-cut-resized.jpg",
       "title": "CoViKoa's logo - made by an anonymous friend"
       },
       {
-        "url": "/img/covikoa-screenshot-loac-resized.jpg",
+        "url": "img/covikoa-screenshot-loac-resized.jpg",
         "title": "Example of UI that can be specified and generated with CoViKoa"
       }
     ],
@@ -59,7 +59,7 @@
     "duration": "Oct. 2018 - Dec. 2021",
     "context": "This research prototype was made during my PhD and during a short contract as a study engineer, both funded by the <a href=\"https://choucas.ign.fr/\">ANR CHOUCAS</a> (however, my thesis manuscript does not specifically address this aspect).",
     "images": [{
-      "url": "/img/gasparlogo-resized.png",
+      "url": "img/gasparlogo-resized.png",
       "title": "GASPAR's logo - generated from a DEM of the Grenoble area"
     }],
     "links": {
@@ -75,7 +75,7 @@
     "duration": "Feb. 2017 - Sept. 2018",
     "context": "I developed Regioviz while working at the <a href=\"https://riate.cnrs.fr/\">UMS RIATE</a> as part of a project coordinated by French CGET (<em>Commissariat Général à l'Égalité des Territoires). Design was made with Ronan Ysebaert and Marianne Guérois and in association with the end-users via the CGET. All the work related to the data (modelling, preparation, etc.) was made by Ronan Ysebaert.",
     "images": [{
-      "url": "/img/screenshot-regioviz-resized.jpg",
+      "url": "img/screenshot-regioviz-resized.jpg",
       "title": "Screenshot of a portion of the Regioviz interface"
     }],
     "links": {
@@ -91,7 +91,7 @@
     "description": "Distance Cartogram is a Python plugin to QGIS3 allowing to make distance cartograms.\nThe technique consists in showing (on background(s) layer(s), such as the territorial divisions of the study zone) the local deformations (calculated using Waldo Tobler's bidimensional regression) to fit a layer of image points to a layer of source points. It is an appealing representation that allows, for example, the distortion of a reference space to represent travel times or estimated positions in spatial cognition.\nThe credit for this type of anamorphosis goes to Colette Cauvin (UMR Théma - Univ. Franche-Comté) and Gilles Vuidel (UMR Théma - CNRS) who first implemented it in Darcy tool.",
     "duration": "Feb. 2018 - Now",
     "images": [{
-      "url": "/img/qgisdistancecartogram-screenshot-resized.png",
+      "url": "img/qgisdistancecartogram-screenshot-resized.png",
       "title": "Example of a distance cartogram"
     }],
     "links": {

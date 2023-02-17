@@ -37,6 +37,11 @@
           <strong>Introduction aux technologies Web</strong> <small>(2022-2023)</small>
           <br>M1 Management des Systèmes d'Information (IAE / Univ. Grenoble Alpes)
         </li>
+        <li>
+          <strong>Systèmes d'Information Géographique</strong> <small>(2022-2023)</small>
+          <br>LP Programmation Avancée
+          (IUT de Bayonne et du Pays Basque / Univ. Pau et Pays de l'Adour)
+        </li>
       </ul>
     </section>
   </main>
