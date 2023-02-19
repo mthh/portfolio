@@ -55,7 +55,7 @@
     "name": "GASPAR",
     "types": ["Research prototype", "Web application"],
     "languages": ["Python", "JavaScript"],
-    "description": "GASPAR is a prototype of a geovisualisation application, intended to support the search for a victim to be located in the mountains, on the basis of imprecise location elements. It enables the use of various elements of the CHOUCAS project (concerning the provision of reference objects and concerning the spatialisation and fusion of location areas). For its part, GASPAR allows the capturing of the initial search area, the capturing of clues, and the restitution of the victim's location area in a 2d view and in a 3d view.\nIt uses libraries such as OpenLayers, Itowns and Lumino.js.\nAn article describing the latest version of the application is under review at the moment.",
+    "description": "GASPAR is a prototype of a geovisualisation application, intended to support the search for a victim to be located in the mountains, on the basis of imprecise location elements. It enables the use of various elements of the CHOUCAS project (concerning the provision of reference objects and concerning the spatialisation and fusion of location areas). For its part, GASPAR allows the capturing of the initial search area, the capturing of clues, and the restitution of the victim's location area in a 2d view and in a 3d view.\nIt uses libraries such as OpenLayers, Itowns and Lumino.js.",
     "duration": "Oct. 2018 - Dec. 2021",
     "context": "This research prototype was made during my PhD and during a short contract as a study engineer, both funded by the <a href=\"https://choucas.ign.fr/\">ANR CHOUCAS</a> (however, my thesis manuscript does not specifically address this aspect).",
     "images": [{
@@ -64,7 +64,8 @@
     }],
     "links": {
       "github": "https://github.com/ANRChoucas/GASPAR",
-      "web": "https://steamer.imag.fr/?page_id=792"
+      "web": "https://steamer.imag.fr/?page_id=792",
+      "paper": "https://journals.openedition.org/mappemonde/8063"
     }
   },
   {
@@ -93,6 +94,9 @@
     "images": [{
       "url": "img/qgisdistancecartogram-screenshot-resized.png",
       "title": "Example of a distance cartogram"
+    }, {
+      "url": "img/ce17e75814a2c8fd-resized.jpg",
+      "title": "Accessibilité unipolaire depuis Paris vers le reste de la France en train en 1882"
     }],
     "links": {
       "github": "https://github.com/mthh/QgisDistanceCartogramPlugin",
