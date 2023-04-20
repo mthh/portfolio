@@ -11,7 +11,7 @@
         </li>
         <li>
           <strong>Python pour
-            QGIS</strong> <small>(2018-2019, 2019-2020, 2020-2021, 2021-2022)</small>
+            QGIS</strong> <small>(2018-2019, 2019-2020, 2020-2021, 2021-2022, 2022-2023)</small>
           <br>LP ESSIG (IUT2 / Univ. Grenoble Alpes)
         </li>
         <li>
