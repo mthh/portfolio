@@ -1,5 +1,13 @@
 [
   {
+    "title": "Analyse comparative Python / R pour les SHS",
+    "url": "https://mthh.github.io/presentation-python-r-shs/",
+    "note": "",
+    "conference": "Séminaire interne du laboratoire Géographie-cités",
+    "place": "Campus Condorcet, Aubervilliers",
+    "date": "16 mai 2023"
+  },
+  {
     "title": "Une approche déclarative basée sur les technologies du Web Sémantique pour spécifier et générer des geovisualisations adaptatives",
     "url": "https://mthh.github.io/phd-defense/viry-matthieu-soutenance-20211216.pdf",
     "note": "",
