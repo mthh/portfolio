@@ -1,5 +1,21 @@
 [
   {
+    "title": "Présentation de l’application de cartographie thématique Magrit",
+    "url": "https://mthh.github.io/Magrit-presentation-USSEIN-2023/",
+    "note": "",
+    "conference": "Webinaire en ligne pour l'Université du Sine Saloum El-hâdj Ibrahima NIASS",
+    "place": "",
+    "date": "19 décembre 2023"
+  },
+  {
+    "title": "Présentation de Python pour géomaticien·ne·s",
+    "url": "https://riatelab.github.io/Formation-Python-OFB/",
+    "note": "",
+    "conference": "Atelier réseau géomatique de l'Office Français de la Biodiversité",
+    "place": "MNHN, Paris",
+    "date": "11 décembre 2023"
+  },
+  {
     "title": "Analyse comparative Python / R pour les SHS",
     "url": "https://mthh.github.io/presentation-python-r-shs/",
     "note": "",
