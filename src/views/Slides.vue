@@ -19,6 +19,7 @@
           :conference="slide.conference"
           :place="slide.place"
           :date="slide.date"
+          :first="slide.first"
         />
       </ul>
     </section>
@@ -33,6 +34,19 @@ export default {
   name: 'Slides',
   components: { SlideEntry },
   data() {
+    // We want to know if this is the first entry of the year
+    const seen = {};
+    slides.forEach((s) => {
+      const year = s.date.match(/[0-9]{4}$/)[0];
+      if (seen[year]) {
+        // eslint-disable-next-line no-param-reassign
+        s.first = false;
+      } else {
+        // eslint-disable-next-line no-param-reassign
+        s.first = true;
+        seen[year] = true;
+      }
+    });
     return { slides };
   },
 };

@@ -1,4 +1,8 @@
 <template>
+  <h4 style="margin-bottom: 0; margin-top: 1em;" v-if="first">
+    {{ date.match(/[0-9]{4}$/)[0] }}
+  </h4>
+  <hr style="margin: 0 0 0.5em 0" v-if="first" />
   <li>
     <strong><a :href="url">{{ title }}</a></strong>
     <span v-if="note"> ({{ note }})</span>
@@ -47,6 +51,10 @@ export default {
       type: String,
       required: false,
       default: () => null,
+    },
+    first: {
+      type: Boolean,
+      required: true,
     },
   },
 };
