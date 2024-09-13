@@ -2,10 +2,10 @@
   {
     "name": "Magrit",
     "types": ["Web application"],
-    "languages": ["Python", "JavaScript"],
-    "description": "Magrit is an online application for thematic mapping (cartography). It's designed for teaching and learning cartography (in fact it is used by several teachers at the university for this purpose).\nIt allows the production of a wide variety of portrayals (choropleth, proportional symbols, cartogram, discontinuity, etc.), map customisation with classic design elements (scale, orientation, arrow, custom image), and the export of the maps created in various formats (notably in well-organised SVG which allows easy editing in a vector drawing software afterwards).\nFrom a technical point of view, Magrit is backed by a Python application (particularly for some geoprocessing tasks relying on GDAL, GEOS and PROJ.4 libraries). On client-side, Magrit is written in modern JavaScript (ES6) and uses notably the d3.js library.",
+    "languages": ["JavaScript"],
+    "description": "Magrit is an open source online application for thematic mapping (cartography). It's designed for teaching and learning cartography (in fact it is used by several teachers at the university for this purpose).\nIt allows the production of a wide variety of portrayals (choropleth, proportional symbols, cartogram, discontinuity, etc.), map customisation with classic design elements (scale, orientation, arrow, custom image, custom annotation, etc.), and the export of the maps created in various formats (notably in well-organised SVG which allows easy editing in a vector drawing software afterwards).\nFrom a technical point of view, Magrit is written in TypeScript and uses notably various libraries such as solidjs, d3.js and gdal3.js.",
     "duration": "Feb. 2016 - Sept. 2018 and since Aug. 2022",
-    "context": "I developed Magrit while working at the <a href=\"https://riate.cnrs.fr/\">UAR RIATE</a> as a study engineer. Design was made with Timothée Giraud and Nicolas Lambert, as well as thanks to the numerous feedbacks and suggestions from students or teachers. The app has been live since February 2017 and is still under development (after a break between Oct. 2018 and Aug. 2022, its development resumed more assiduously in 2022).",
+    "context": "I developed Magrit while working at the <a href=\"https://riate.cnrs.fr/\">UAR RIATE</a> as a study engineer. Design was made with other members of the UAR RIATE as well as thanks to the numerous feedbacks and suggestions from students or teachers. The app has been live since February 2017 and is still under development (after a break between Oct. 2018 and Aug. 2022, its development resumed more assiduously in 2022).",
     "images": [{
       "url": "img/magrit-screenshot-cinemapot-resized.png",
       "title": "An example of map made with Magrit"
@@ -27,6 +27,7 @@
     "context": "I designed and developed this application within the project GeoChange, which is funded by the SATT (technology transfer acceleration company) Linksium in collaboration with the Grenoble Informatics Laboratory (LIG) of Grenoble Alpes University.",
     "images": [],
     "links": {
+      "paper": "https://hal.science/hal-04357933"
     }
   },
   {

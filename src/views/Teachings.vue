@@ -43,7 +43,8 @@
           (IUT de Bayonne et du Pays Basque / Univ. Pau et Pays de l'Adour)
         </li>
         <li>
-          <strong>Programmation Web pour la visualisation</strong> <small>(2023-2024)</small>
+          <strong>Programmation
+            Web pour la visualisation</strong> <small>(2023-2024, 2024-2025)</small>
           <br>3ème année BUT Science des Données
           (IUT2 / Univ. Grenoble Alpes)
         </li>
