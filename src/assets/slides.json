@@ -1,5 +1,13 @@
 [
   {
+    "title": "Magrit, version 2",
+    "url": "https://riatecom.github.io/Magrit-MagisAR9-2024/",
+    "note": "",
+    "conference": "Webinaire AR9 Magis",
+    "place": "",
+    "date": "24 septembre 2024"
+  },
+  {
     "title": "Cartographie thématique avec Magrit",
     "url": "https://riatecom.github.io/Magrit-seminaire-TAIS-2024/",
     "note": "avec Nicolas Lambert",
@@ -11,7 +19,7 @@
     "title": "Présentation de l’application de cartographie thématique Magrit",
     "url": "https://riatecom.github.io/Magrit-presentation-USSEIN-2023/",
     "note": "",
-    "conference": "Webinaire en ligne pour l'Université du Sine Saloum El-hâdj Ibrahima NIASS",
+    "conference": "Webinaire pour l'Université du Sine Saloum El-hâdj Ibrahima NIASS",
     "place": "",
     "date": "19 décembre 2023"
   },
@@ -22,6 +30,14 @@
     "conference": "Atelier réseau géomatique de l'Office Français de la Biodiversité",
     "place": "MNHN, Paris",
     "date": "11 décembre 2023"
+  },
+  {
+    "title": "Articulation de différents langages (R, JavaScript et Python) pour la géovisualisation avec Quarto",
+    "url": "https://riatecom.github.io/sageo-2023/",
+    "note": "Atelier avec Nicolas Lambert, Timothée Giraud et Ronan Ysebaert",
+    "conference": "SAGEO 2023",
+    "place": "Québec",
+    "date": "05 juin 2023"
   },
   {
     "title": "Analyse comparative Python / R pour les SHS",
