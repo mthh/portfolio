@@ -24,19 +24,10 @@
         </ul>
         <h4>Other interest</h4>
         <p>
-          I am also interested in software development (library or application)
+          I am also interested in software development (from libraries to applications)
           whether it is to process data related to my research interests
           (geographic information or Semantic Web data for example) or
           for user interface development in general.
-        </p>
-        <p>
-          I have experience with various languages and frameworks such as JavaScript
-          (vanilla, d3.js, Vue.js, OpenLayers, Leaflet, Itowns),
-          HTML and CSS (Bootstrap, Bulma),
-          Python (FastApi, aiohttp, pandas, geopandas, dask,
-          matplotlib, PyQt / PySide, Owlready, RDFLib),
-          Cython, Rust (notably with the georust ecosystem), Java (Apache Jena)
-          and I can even write C if necessary.
         </p>
       </div>
     </section>

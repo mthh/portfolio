@@ -18,7 +18,7 @@
 
 <script>
 export default {
-  name: 'Publications.vue',
+  name: 'Publications',
 };
 </script>
 
