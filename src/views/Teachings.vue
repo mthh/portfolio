@@ -44,7 +44,7 @@
         </li>
         <li>
           <strong>Programmation
-            Web pour la visualisation</strong> <small>(2023-2024, 2024-2025)</small>
+            Web pour la visualisation</strong> <small>(2023-2024, 2024-2025, 2025-2026)</small>
           <br>3ème année BUT Science des Données
           (IUT2 / Univ. Grenoble Alpes)
         </li>
