@@ -33,7 +33,6 @@ html {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: #2c3e50;
 }
 #app > main.content {
   padding: 60px 2em 5px 2em;
@@ -42,6 +41,14 @@ html {
 }
 main section {
   margin: 2em auto;
+}
+header {
+  background-color: #0d3b66;
+  color: #f5faff;
+}
+header a,
+header .navbar-item {
+  color: #f5faff !important;
 }
 .content {
   margin: 12px;

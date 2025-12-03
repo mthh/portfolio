@@ -248,4 +248,11 @@ export default {
   stroke: #9b9696;
   stroke-width: 1.5px;
 }
+
+.project-item h3 {
+  color: black !important;
+}
+.project-item :deep(a) {
+  color: #10258f !important;
+}
 </style>

@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar is-warning has-shadow">
+  <nav class="navbar has-shadow">
     <div class="navbar-brand">
       <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navMenu">
         <span aria-hidden="true" /><span aria-hidden="true" /><span aria-hidden="true" />
@@ -40,6 +40,21 @@ document.addEventListener('DOMContentLoaded', () => {
       });
     });
   }
+
+  // Close the navbar menu when a link is clicked (for mobile)
+  const $navbarItems = Array.prototype.slice.call(document.querySelectorAll('.navbar-item'), 0);
+  if ($navbarItems.length > 0) {
+    $navbarItems.forEach((el) => {
+      el.addEventListener('click', () => {
+        const $navbarBurger = document.querySelector('.navbar-burger');
+        const $navMenu = document.getElementById('navMenu');
+        if ($navbarBurger.classList.contains('is-active')) {
+          $navbarBurger.classList.remove('is-active');
+          $navMenu.classList.remove('is-active');
+        }
+      });
+    });
+  }
 });
 </script>
 
@@ -48,6 +63,14 @@ document.addEventListener('DOMContentLoaded', () => {
   max-width: calc(1100px - 4em);
   text-align: center;
   margin: auto;
+}
+
+.navbar {
+  background: #0d3b66;
+}
+
+.navbar :deep(.is-active) {
+  background: #082642 !important;
 }
 
 .router-link-active {
@@ -69,7 +92,7 @@ a {
   height: 5px;
   left: 50%;
   bottom:0;
-  background-color: yellow;
+  background-color: lightblue;
   transition: all ease-in-out .2s;
 }
 
