@@ -10,7 +10,7 @@
   "dependencies": {
     "@rushstack/eslint-patch": "^1.2.0",
     "@vue/eslint-config-airbnb": "^7.0.0",
-    "bulma": "^0.9.3",
+    "bulma": "1.0.4",
     "core-js": "^3.6.5",
     "gsap": "^3.10.4",
     "vue": "^3.2.45",
