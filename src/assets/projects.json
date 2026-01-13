@@ -105,6 +105,24 @@
     }
   },
   {
+    "name": "routingpy",
+    "types": ["Library"],
+    "languages": ["Python"],
+    "description": "routingpy is a Python client library for various routing services (OSRM, Valhalla, GraphHopper, OpenRouteService, Mapbox Directions API, Google Maps Directions API, etc.).\nIt enables easy and consistent access to these webservices to request route directions, isochrones or time-distance matrices.",
+    "context": "The library has been developed over several years by Nils Nolde, and I took over maintenance of this library in 2025 in order to prevent the project from ending up without a maintainer.",
+    "duration": "Jun. 2025 - Now",
+    "images": [
+      {
+        "url": "img/iso.png",
+        "title": "Example of isochrones generated with routingpy"
+      }
+    ],
+    "links": {
+      "github": "https://github.com/mthh/routingpy",
+      "pypi": "https://pypi.org/project/routingpy/"
+    }
+  },
+  {
     "name": "Jenkspy",
     "types": ["Library"],
     "languages": ["Python"],

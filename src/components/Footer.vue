@@ -1,6 +1,6 @@
 <template>
   <footer class="content is-info">
-    <p>© 2021-2025 Matthieu Viry. Last updated on {{ getBuildDate() }}. Built with <a href="https://v3.vuejs.org/">Vue.js</a> and <a href="https://bulma.io/">Bulma</a> (<a href="https://github.com/mthh/portfolio">source</a>).</p>
+    <p>© 2021-2026 Matthieu Viry. Last updated on {{ getBuildDate() }}. Built with <a href="https://v3.vuejs.org/">Vue.js</a> and <a href="https://bulma.io/">Bulma</a> (<a href="https://github.com/mthh/portfolio">source</a>).</p>
   </footer>
 </template>
 
