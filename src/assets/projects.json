@@ -24,7 +24,7 @@
     "languages": ["JavaScript"],
     "description": "The GeoChange visualisation interface is a Single Page Application dedicated to visualise the data processed and immersed in the Web of Data by the GeoChange project. It uses notably Vue.js and Openlayers.\nThe aim of the application is to allow the user to compare two versions of a dataset through various visualisation components.",
     "duration": "Jan. 2022 - Aug. 2022",
-    "context": "I designed and developed this application within the project GeoChange, which is funded by the SATT (technology transfer acceleration company) Linksium in collaboration with the Grenoble Informatics Laboratory (LIG) of Grenoble Alpes University.",
+    "context": "I designed and developed this application within the project GeoChange, which is funded by the SATT (technology transfer acceleration company) Linksium in collaboration with the Computer Science Laboratory of Grenoble (LIG) of Grenoble Alpes University.",
     "images": [],
     "links": {
       "paper": "https://hal.science/hal-04357933"

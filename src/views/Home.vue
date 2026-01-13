@@ -12,7 +12,7 @@
         <p>On December 2021, I graduated from the <i>Université Grenoble Alpes</i> with
           a <a href="https://www.theses.fr/s208233">PhD in Computer Science</a>,
           performed in the <a href="https://steamer.imag.fr/">STeamer research team</a>
-          of the <a href="https://www.liglab.fr/">Grenoble Informatics Laboratory</a> (LIG).</p>
+          of the <a href="https://www.liglab.fr/">Computer Science Laboratory of Grenoble</a> (LIG).</p>
         <p>Before that, and following my master's degree in geography,
           I worked as a study engineer in geography and geographic information science
           from early 2014 to October 2018.</p>
