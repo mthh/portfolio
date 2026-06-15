@@ -7,6 +7,12 @@
     "duration": "Feb. 2016 - Sept. 2018 and since Aug. 2022",
     "context": "I developed Magrit while working at the <a href=\"https://riate.cnrs.fr/\">UAR RIATE</a>. Design was made with other members of the UAR RIATE as well as thanks to the numerous feedbacks and suggestions from students or teachers. The app has been live since February 2017 and is still under development (after a break between Oct. 2018 and Aug. 2022, its development resumed more assiduously in 2022 resulting in the release of a new major version in July 2024).",
     "images": [{
+      "url": "img/magrit-ui-dark.png",
+      "title": "Magrit's user interface (dark mode)"
+    }, {
+      "url": "img/magrit-ui-light.png",
+      "title": "Magrit's user interface (light mode)"
+    }, {
       "url": "img/magrit-screenshot-cinemapot-resized.png",
       "title": "An example of map made with Magrit"
     }, {
@@ -16,6 +22,26 @@
     "links": {
       "github": "https://github.com/riatelab/magrit",
       "web": "https://magrit.cnrs.fr"
+    }
+  },
+  {
+    "name": "mapsf.gui",
+    "types": ["Library"],
+    "languages": ["R"],
+    "description": "mapsf.gui is an R package that provides a graphical user interface (GUI) to the mapsf package. It allows the user to create a map in a few clicks, without having to write any R code. It also generates the R code corresponding to the map created, which allows the user to learn how to use mapsf and to reproduce the map later.",
+    "duration": "Jan. 2026 - Now",
+    "images": [{
+      "url": "img/mapsf-gui-logo.png",
+      "title": "Logo of mapsf.gui"
+    }, {
+      "url": "img/mapsf-gui-screenshot-dark.png",
+      "title": "Screenshot of mapsf.gui (dark mode)"
+    }, {
+      "url": "img/mapsf-gui-screenshot-light.png",
+      "title": "Screenshot of mapsf.gui (light mode)"
+    }],
+    "links": {
+      "codeberg": "https://codeberg.org/riatelab/mapsf.gui"
     }
   },
   {

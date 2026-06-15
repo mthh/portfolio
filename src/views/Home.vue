@@ -38,8 +38,8 @@
         <p>You can reach me by email,
           at <span class="is-fake-link">matthieu (dot) viry (at) cnrs (dot) fr</span>.</p>
         <p>You can find me on <a rel="me" href="https://fosstodon.org/@mthv">Mastodon</a> and see my contributions
-          on <a href="https://github.com/mthh">GitHub</a> and
-          on <a href="https://stackoverflow.com/users/5050917">StackOverflow</a>,
+          on <a href="https://github.com/mthh">GitHub</a>, on <a href="https://codeberg.org/mthh">Codeberg</a>, and
+          on <a href="https://stackoverflow.com/users/5050917">StackOverflow</a>
           where I gave more than 130 answers.</p>
       </div>
     </section>

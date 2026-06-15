@@ -55,6 +55,7 @@
 
 <script>
 import { VueperSlides, VueperSlide } from 'vueperslides';
+import logoCodeberg from '../assets/logo-codeberg.svg';
 import logoGithub from '../assets/logo-github.svg';
 import logoRust from '../assets/logo-crates.svg';
 import logoNpm from '../assets/logo-npm.svg';
@@ -68,6 +69,7 @@ const logos = {
   crates: `<img title="crates.io" style="width: 30px;" src="${logoRust}"/>`,
   pypi: `<img title="PyPI" style="width: 30px;" src="${logoPypi}"/>`,
   github: `<img title="GitHub repository" style="width: 30px;" src="${logoGithub}"/>`,
+  codeberg: `<img title="Codeberg repository" style="width: 30px;" src="${logoCodeberg}"/>`,
   npm: `<img title="NPM" style="width: 30px;" src="${logoNpm}"/>`,
   web: `<img title="Web page" style="width: 30px;" src="${logoWeb}"/>`,
   paper: `<img title="Scientific publication" style="width: 30px;" src="${logoPaper}"/>`,
